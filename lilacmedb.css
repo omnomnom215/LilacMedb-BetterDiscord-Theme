@@ -95,7 +95,16 @@
 .theme-dark .containerCozy-jafyvG .markup-2BOw-j pre code {background: transparent;box-shadow: 0 0 3px 1px #000}
 
 
+/*dividers*/
+.theme-dark .divider-3gKybi span {
+    background-color: rgba(0,0,0,.4);
+}
 
+.theme-dark .divider-3gKybi:before {
+     background-color:transparent;
+}
+
+/*big avatars*/
 .containerCozy-jafyvG .avatar-17mtNa .image-33JSyf.large-3ChYtB {
 	background-size: var(--size1) var(--size1);
 	height: var(--size1);width: var(--size1);
