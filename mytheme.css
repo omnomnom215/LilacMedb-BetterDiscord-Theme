@@ -1,0 +1,45 @@
+/* Scrollbars */
+::-webkit-scrollbar-thumb {border-color: transparent !important;} 
+::-webkit-scrollbar, ::-webkit-scrollbar-track-piece {border-color: transparent !important; background: transparent !important;} 
+::-webkit-scrollbar-corner {display: none !important;}
+
+/*basic main transparent elements*/
+
+.appMount-3VJmYg {background: var(--background) center top/cover no-repeat;animation: none;} /*background image*/
+
+.container-2lgZY8, /*back ground stuff*/ .app .content-yTz4x3,.app .chat-3bRxxu,
+.app .layer-3QrUeG, .app .layers-3iHuyZ, .channels-Ie2l6A/*under username */
+{background: transparent !important;}
+
+.app .messagesWrapper-3lZDfY,.container-PNkimc,.app .members-1998pB,.container-2Thooq,.app .activityFeed-28jde9,
+.app .ui-standard-sidebar-view .sidebar-region,.app .ui-standard-sidebar-view,.app .ui-standard-sidebar-view .content-region{background: rgba(0,0,0,.4) !important;}
+
+.app .typing-2GQL18/*here is where it says typing...*/
+	{background: transparent !important;}
+
+ .app .chat-3bRxxu form /*around the text box*/{
+	Background:rgba(0,0,0,0.6);	
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+}
+
+.app .inner-zqa7da /*here is where the textbox is*/ {
+    background: rgba(0,0,0,.6);
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.app .title-3qD0b-{
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06);
+    background: rgba(0,0,0,0.4);
+    box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06);
+}
+
+.app .guildsWrapper-5TJh6A{
+	background: rgba(0,0,0,.4);
+	box-shadow: inset 2px -1px 3px black;}
+	
+
+	
+/*.typeWindows-1za-n7{background: rgba(0,0,0,.4)}*/
+.titleBar-AC4pGV::after {background: rgba(0,0,0,.4) !important;content:""; position:absolute; z-index:-1; top:0; left:0; right:0; width:100%; height:22px}
