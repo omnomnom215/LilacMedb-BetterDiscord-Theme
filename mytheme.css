@@ -92,7 +92,7 @@
 /*code box*/
 .theme-dark .markup-2BOw-j pre {background:var(--boxcolor) !important;}
 .theme-dark .containerCozy-jafyvG .markup-2BOw-j code.inline {background: rgba(0, 0, 0, 0.4);color:var(--accentcolor)}
-.theme-dark .containerCozy-jafyvG .markup-2BOw-j pre code {background: transparent; box-shadow: 0 0 3px 1px #000}
+.theme-dark .containerCozy-jafyvG .markup-2BOw-j pre code {background: transparent;box-shadow: 0 0 3px 1px #000;boarder:none}
 
 
 
