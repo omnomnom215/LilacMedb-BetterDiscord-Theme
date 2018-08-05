@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Mandali');
+
+#app-mount{
+    text-shadow: 0 0 2px rgba(0,0,0,0.4);
+}
+
+.markup-2BOw-j{
+    font-family:"mandali", sans-serif;
+    font-size:100%;
+}
+
+.userPopout-3XzG_A{background:rgba(0,0,0,.4)}
+
 /* Scrollbars */
 ::-webkit-scrollbar-thumb {border-color: transparent !important;} 
 ::-webkit-scrollbar, ::-webkit-scrollbar-track-piece {border-color: transparent !important; background: transparent !important;} 
