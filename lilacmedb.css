@@ -97,11 +97,11 @@
 
 /*dividers*/
 .theme-dark .divider-3gKybi span {
-    background-color: rgba(0,0,0,.4);
+    background-color: rgba(0,0,0,.4) !important;
 }
 
 .theme-dark .divider-3gKybi:before {
-     background-color:transparent;
+     background-color:transparent !important;
 }
 
 /*big avatars*/
