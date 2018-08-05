@@ -96,13 +96,8 @@
 
 
 /*dividers*/
-.theme-dark .divider-3gKybi span {
-    background-color: rgba(0,0,0,.4) !important;
-}
-
-.theme-dark .divider-3gKybi:before {
-     background-color:transparent !important;
-}
+.theme-dark .divider-3gKybi span {background-color: rgba(0,0,0,.4);}
+.theme-dark .divider-3gKybi:before {background-color:transparent;}
 
 /*big avatars*/
 .containerCozy-jafyvG .avatar-17mtNa .image-33JSyf.large-3ChYtB {
