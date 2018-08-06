@@ -11,10 +11,5 @@
 	--accentcolor: #f1e1ff; /*other accent color #5a3f72*/
 	--accentcolorclear: rgba(241, 225, 255,0.4);
 	--round2: 20%;
-	--size1: 55px; /* Avatar Size */
-	--round1: 10%;  /* Avatar roundness 50% Circle. */
-	--margin1: 3px; /* Margin left/right */
-	--margin2: 3px; /* Margin top/bottom */
-	--shadow1: 0 0 4px #000; /* Shadow for transparent themes. */
 }
 	
