@@ -25,7 +25,7 @@
     transform: scale(1.10);
 }
 
-.theme-dark .member-3W1lQa:hover,.theme-dark .member-3W1lQa:hover .content-OzHfo4{Background: var(--boxcolor);}
+.theme-dark .member-3W1lQa:hover .content-OzHfo4, .member-3W1lQa.popout-open .content-OzHfo4, .member-3W1lQa.popout-open .content-OzHfo4 {Background: var(--boxcolor);}
 
 .app .ui-standard-sidebar-view .sidebar-region,.app .ui-standard-sidebar-view,.app .ui-standard-sidebar-view .content-region{background:rgba(0,0,0,.2) !important;}
 
