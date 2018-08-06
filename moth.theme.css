@@ -1,6 +1,6 @@
 //META{"name":"lilacmedb","description":"a clear wallpaper theme","author":"moth","version":"1.0"}*//{}
 
-@import url(https://omnomnom215.github.io/BD-discord-theme-personal/lilacmedb.css); 
+@import url(https://omnomnom215.github.io/BD-discord-theme-personal/lilacmedb.css);  
 
 :root {
     --background:url(https://i.imgur.com/rbTInWz.jpg);  /*Wallpaper.*/
@@ -9,8 +9,8 @@
 	--round: 10%;
 	--boxcolor: rgba(243, 170, 255,.2);
 	--accentcolor: #f1e1ff;
+	--accentcolorclear: rgba(241, 225, 255,0.4)
 	--round2: 20%;
-	/*beyond is for avatar*/
 	--size1: 55px; /* Avatar Size */
 	--round1: 10%;  /* Avatar roundness 50% Circle. */
 	--margin1: 3px; /* Margin left/right */

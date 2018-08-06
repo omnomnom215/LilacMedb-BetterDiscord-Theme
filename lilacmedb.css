@@ -31,7 +31,7 @@
 .app .typing-2GQL18{background: transparent !important;} /*here is where it says typing...*/
 .app .chat-3bRxxu form {Background:rgba(0,0,0,0.4);	margin-left: 0px !important;margin-right: 0px !important;} /*around the text box*/
 .app .inner-zqa7da {background: var(--boxcolor); margin-left: 20px; margin-right: 20px;} /*here is where the textbox is*/ 
-.app .textArea-2Spzkt::-webkit-input-placeholder{color:var(--accentcolor) ;font-family:"mandali";} 
+.theme-dark .textArea-2Spzkt::-webkit-input-placeholder{color:var(--accentcolorclear) ;font-family:"mandali";} 
 
 .app .title-3qD0b-{-webkit-box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06); background: rgba(0,0,0,0.4); box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06);} /*title*/
 	
