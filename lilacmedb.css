@@ -59,6 +59,9 @@
 .theme-dark .autocomplete-1vrmpx,.autocompleteInner-zh20B_ {background-color: rgba(0,0,0,.4);box-shadow: 0 0 3px 1px #000;}
 .userPopout-3XzG_A{background:rgba(0,0,0,.4);}
 
+/*tool tips*/
+.tooltip {z-index: 99999;background-color: var(--boxcolor);}
+
 /*code box*/
 .theme-dark .markup-2BOw-j pre {background:var(--boxcolor) !important;border:none;}
 .theme-dark .containerCozy-jafyvG .markup-2BOw-j code.inline {background: rgba(0, 0, 0, 0.4);color:var(--accentcolor);}
@@ -85,3 +88,12 @@
 .statusProfile-3ynqtt {background-size: 12px; bottom: 3px; height: 18px; position: absolute; right: 3px; width: 18px;}
 .avatarHint-1qgaV3{border-radius: var(--round1);}
 .maskProfile-1ObLFT {-webkit-mask: none;mask: none}
+
+/*menu bar*/
+#bd-settings-sidebar .ui-tab-bar-item.selected{background-color:var(--boxcolor);color:var(--accentcolor);}
+#bd-settings-sidebar .ui-tab-bar-item.selected:hover{color:var(--accentcolor);}
+#bd-settings-sidebar .ui-tab-bar-item:hover{background-color:var(--boxcolor) ;color:#545454;}
+#bd-settings-sidebar .ui-tab-bar-item{color:#545454;}
+.side-8zPYf6 .itemSelected-1qLhcL{background-color:var(--boxcolor);color:var(--accentcolor);}
+.theme-dark .side-8zPYf6 .itemDefault-3Jdr52:hover{background-color:var(--boxcolor) ;color:#545454;}
+.theme-dark .side-8zPYf6 .itemDefault-3Jdr52{color:#545454;}
