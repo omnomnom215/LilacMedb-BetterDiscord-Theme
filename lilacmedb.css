@@ -26,7 +26,7 @@
 
 .channels-Ie2l6A,.app .messagesWrapper-3lZDfY,.app .members-1998pB,.app .activityFeed-28jde9, .theme-dark .wrapper-29NfPK{background: rgba(0,0,0,.4) !important;}
 
-.app .guildsWrapper-5TJh6A{background: rgba(0,0,0,.4); box-shadow: inset 2px -1px 3px black;}/*server list box shadow*/
+.app .guildsWrapper-5TJh6A{background: rgba(0,0,0,.4); /*box-shadow: inset 2px -1px 3px black;*/}/*server list box shadow*/
 
 .app .typing-2GQL18{background: transparent !important;} /*here is where it says typing...*/
 .app .chat-3bRxxu form {Background:rgba(0,0,0,0.4);	margin-left: 0px !important;margin-right: 0px !important;} /*around the text box*/
@@ -68,8 +68,12 @@
 
 
 /*mentions*/
-.mention-1f5kbO {background-color:var(--boxcolor);}
+.mention-1f5kbO{background-color:var(--boxcolor); text-shadow:0 0 1px #555;}
+.mention-1f5kbO:hover{background-color:var(--boxcolor);}
+.wrapper-232cHJ{background-color:var(--boxcolor);}
 
+.theme-dark .isMentioned-N-h9aa {background: var(--boxcolor);margin-left:8px;}
+.isMentionedCozy-3isp7y:after{background: transparent;border-left:6px solid var(--accentcolor);}
 /*code box*/
 .theme-dark .markup-2BOw-j pre {background:var(--boxcolor) !important;border:none;text-shadow: 0 0 2px rgba(0,0,0,1);}
 .theme-dark .containerCozy-jafyvG .markup-2BOw-j code.inline {background: rgba(0, 0, 0, 0.4);color:var(--accentcolor);}
