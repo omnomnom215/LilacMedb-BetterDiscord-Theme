@@ -7,6 +7,7 @@
     --font-size: 24px ;
 	--text:  #555;
 	--round: 10%;
+	--Transparency: hsla(0, 0%, 0%, 0.4);
 	--boxcolor: rgba(243, 170, 255,.3);
 	--accentcolor: #f1e1ff; /*other accent color #5a3f72*/
 	--accentcolorclear: rgba(241, 225, 255,0.4);
