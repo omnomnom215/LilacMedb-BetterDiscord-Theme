@@ -67,12 +67,14 @@
 
 
 /*mentions*/
-.mention-1f5kbO{background-color:var(--boxcolor); text-shadow:0 0 1px #555;}
-.mention-1f5kbO:hover{background-color:var(--boxcolor);}
+.wrapper-232cHJ{background-color:var(--boxcolor); text-shadow:0 0 1px #555;}
+.wrapper-232cHJ:hover{background-color:var(--boxcolor);}
 .theme-dark .wrapper-3WhCwL,.theme-light .wrapper-3WhCwL{background-color:var(--boxcolor);color:var(--accentcolor);text-shadow:0px 0px 2px var(--accentcolorclear);}
 
 .theme-dark .isMentioned-N-h9aa ,.theme-light .isMentioned-N-h9aa {background: var(--boxcolor);margin-left:8px;}
 .isMentionedCozy-3isp7y:after{background: transparent;border-left:6px solid var(--accentcolor);}
+
+.unreadBar-17qm9c{background:var(--accentcolorclear)}
 /*code box*/
 .theme-dark .markup-2BOw-j pre ,.theme-light .markup-2BOw-j pre {background:var(--boxcolor) !important;border:none;text-shadow: 0 0 2px rgba(0,0,0,1);}
 .theme-dark .containerCozy-jafyvG .markup-2BOw-j code.inline, .theme-light.containerCozy-jafyvG .markup-2BOw-j code.inline {background: rgba(0, 0, 0, 0.4);color:var(--accentcolor);}
