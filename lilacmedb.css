@@ -58,11 +58,14 @@
 .theme-dark .autocomplete-1vrmpx,.theme-dark .autocompleteInner-zh20B_,.theme-light .autocomplete-1vrmpx,.theme-light .autocompleteInner-zh20B_ {background-color: rgba(0,0,0,.4);box-shadow: 0 0 3px 1px #000;}
 .userPopout-3XzG_A{background:rgba(0,0,0,.4);}
 
+
+
 /*tool tips*/
 .tooltip {background-color:var(--boxcolor) !important;}
+.tooltip.tooltip-black{background-color:var(--boxcolor) !important;}
 .tooltip.tooltip-top:after {border-top-color: var(--boxcolor) !important;}
 .tooltip.tooltip-bottom:after {border-bottom-color: var(--boxcolor) !important;}
-
+.tooltip.tooltip-black.tooltip-right:after{border-right-color:var(--boxcolor);}
 
 
 
