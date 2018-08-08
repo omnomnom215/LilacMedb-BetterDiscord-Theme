@@ -12,5 +12,6 @@
 	--accentcolor: #f1e1ff; /*other accent color #5a3f72*/
 	--accentcolorclear: rgba(241, 225, 255,0.4);
 	--round2: 20%;
+	--textshadow:0px 0px 0px rgba(0,0,0,0.5);
 }
 	

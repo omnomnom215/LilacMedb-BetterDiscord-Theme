@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Mandali');
 
-#app-mount{text-shadow: 0px 0px 2px rgba(0,0,0,0.5);}
+#app-mount{text-shadow: var(--textshadow)}
 .markup-2BOw-j{font-family:"mandali", sans-serif;font-size:100%;}
 
 /* Scrollbars */
@@ -69,7 +69,7 @@
 /*mentions*/
 .wrapper-232cHJ,.mention-1f5kbO{background-color:var(--boxcolor); text-shadow:0 0 1px #555;}
 .wrapper-232cHJ:hover,.mention-1f5kbO:hover{background-color:var(--boxcolor);}
-.theme-dark .wrapper-3WhCwL,.theme-light .wrapper-3WhCwL{background-color:var(--boxcolor);color:var(--accentcolor);text-shadow:0px 0px 2px var(--accentcolorclear);}
+.theme-dark .wrapper-3WhCwL,.theme-light .wrapper-3WhCwL{background-color:var(--boxcolor);color:var(--accentcolor);text-shadow:0px 0px 2px var(--accentcolorclear); border-radius: 5%;}
 
 .theme-dark .isMentioned-N-h9aa ,.theme-light .isMentioned-N-h9aa {background: var(--boxcolor);margin-left:8px;}
 .isMentionedCozy-3isp7y:after{background: transparent;border-left:6px solid var(--accentcolor);}
