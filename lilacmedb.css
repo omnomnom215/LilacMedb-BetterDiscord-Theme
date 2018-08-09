@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Mandali');
 
 #app-mount{text-shadow: var(--textshadow)}
-.markup-2BOw-j{font-family:"mandali", sans-serif;font-size:100%;}
+#app-mount{font-family:"mandali", sans-serif;font-size:100%;}
 
 /* Scrollbars */
 ::-webkit-scrollbar-thumb {border-color: transparent !important;} 
