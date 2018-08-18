@@ -21,11 +21,11 @@
 
 .theme-dark .member-3W1lQa:hover .content-OzHfo4,.theme-light .member-3W1lQa:hover .content-OzHfo4, .member-3W1lQa.popout-open .content-OzHfo4, .member-3W1lQa.popout-open .content-OzHfo4{Background: var(--boxcolor) !important;}/*member icon color*/
 
-.app .ui-standard-sidebar-view .sidebar-region,.app .ui-standard-sidebar-view,.app .ui-standard-sidebar-view .content-region{background:rgba(0,0,0,.2) !important;}
+.app .ui-standard-sidebar-view .sidebar-region,.app .ui-standard-sidebar-view,.app .ui-standard-sidebar-view .content-region,.theme-dark .guild-1EfMGQ .guildInner-3DSoA4{background:rgba(0,0,0,.2) !important;}
 
 .channels-Ie2l6A,.app .messagesWrapper-3lZDfY,.app .members-1998pB,.app .activityFeed-28jde9, .theme-dark .wrapper-29NfPK,.theme-light .wrapper-29NfPK{background: var(--Transparency) !important;}
 .theme-dark .search-results-wrap,.theme-dark .search-results-wrap .search-header,.theme-dark .search-results-wrap .search-result .search-result-message.hit,.theme-dark .search-results-wrap .search-result.expanded .search-result-message.hit{background: var(--Transparency) !important;}
-.app .guildsWrapper-5TJh6A, #friends{background: var(--Transparency); /*box-shadow: inset 2px -1px 3px black;*/}/*server list box shadow*/
+.app .guildsWrapper-5TJh6A, #friends,.theme-dark #friends{background: var(--Transparency);}/*server list box shadow*/
 
 .app .typing-2GQL18{background: transparent !important;} /*here is where it says typing...*/
 .app .chat-3bRxxu form {Background:var(--Transparency);	margin-left: 0px !important;margin-right: 0px !important;} /*around the text box*/
