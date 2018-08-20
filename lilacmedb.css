@@ -7,8 +7,10 @@
 ::-webkit-scrollbar-thumb {border:2px solid var(--accentcolorclear) !important; background-color:transparent !important;} 
 ::-webkit-scrollbar, ::-webkit-scrollbar-track-piece {border-color: transparent !important; background: transparent !important;} 
 ::-webkit-scrollbar-corner {display: none !important;}
-/*emote scrollbar needed*/
-.bda-dark .emoji-picker .scroller::-webkit-scrollbar, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track-piece, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track-piece{background-color:transparent}
+/* disabling scroll bar on emoji */
+.scroller-2FKFPG::-webkit-scrollbar {
+    width: 0px;
+}
 /*home icon*/
 .app .homeIcon-1FoKUJ {
     background: url('https://i.imgur.com/pJNgJYd.png');
@@ -158,3 +160,17 @@
 .app .side-8zPYf6 .itemDefault-3Jdr52:hover{background-color:var(--boxcolor) ;color:#545454;}
 .app .side-8zPYf6 .itemDefault-3Jdr52{color:#545454;}
 .newMessagesBar-mujexs{background-color:var(--boxcolor);}/*new messages*/
+
+/*home icon*/
+.theme-dark .homeIcon-1FoKUJ {
+    background: url('https://i.imgur.com/naHr38x.png');
+    background-color: rgba(0,0,0,0)!important;
+    color: rgba(0,0,0,0);
+    background-position: center;
+    background-size: cover;
+}
+
+/*emote menu*/
+.bda-dark .emojiPicker-3m1S-j{background-color:rgba(0,0,0,.6);border:none;}
+
+.bda-dark .emoji-picker .header .search-bar, .bda-dark .emojiPicker-3m1S-j .header-1nkwgG .search-bar, .search-bar.search-bar-light, .search-bar, .bda-dark .emoji-picker .category, .bda-dark .emojiPicker-3m1S-j .category-2U57w6, .emojiPicker-3m1S-j .stickyHeader-1SS0JU{background-color:transparent;}
