@@ -118,9 +118,9 @@
 
 
 /*avatars & status*/
-#app-mount .status-oxiHuE{border-radius: 5%;}
+#app-mount .status-oxiHuE{border-radius: 20%;}
 .maskProfile-1ObLFT,.mask-3OgeRz {-webkit-mask: none;mask: none;}
-
+.image-33JSyf, .wrapper-2F3Zv8{border-radius: 20%;}
 /*voicechat*/
 .avatarSpeaking-1wJCNq, .avatarDefault-35WC3R, .avatarContainer-72bSfM {
 	border-color: transparent !important;
