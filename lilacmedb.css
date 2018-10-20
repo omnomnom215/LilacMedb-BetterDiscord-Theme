@@ -33,7 +33,7 @@
 
 .app .member-3W1lQa:hover .content-OzHfo4, .member-3W1lQa.popout-open .content-OzHfo4, .member-3W1lQa.popout-open .content-OzHfo4{Background: var(--boxcolor) !important;}/*member icon color*/
 
-.app .ui-standard-sidebar-view .sidebar-region,.app .ui-standard-sidebar-view,.app .ui-standard-sidebar-view .content-region,.app .guild-1EfMGQ .guildInner-3DSoA4{background:rgba(0,0,0,.2) !important;}
+.contentRegion-3nDuYy,.sidebarRegion-VFTUkN,.app .standardSidebarView-3F1I7i,.app .standardSidebarView-3F1I7i .content-region,.app .guild-1EfMGQ .guildInner-3DSoA4{background:rgba(0,0,0,.2) !important;}
 
 .channels-Ie2l6A,.app .messagesWrapper-3lZDfY,.app .members-1998pB,.app .activityFeed-28jde9, .app .wrapper-29NfPK{background: var(--Transparency) !important;}
 .app .search-results-wrap,.app .search-results-wrap .search-header,.app .search-results-wrap .search-result .search-result-message.hit,.app .search-results-wrap .search-result.expanded .search-result-message.hit{background: var(--Transparency) !important;}
