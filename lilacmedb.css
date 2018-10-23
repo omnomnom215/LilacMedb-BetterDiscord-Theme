@@ -150,9 +150,8 @@
 
 /*menu bar*/
 .theme-dark #bd-settings-sidebar .ui-tab-bar-item,.side-8zPYf6 .item-PXvHYJ{color:var(--accentcolor);}
-.sidebar-CFHs9e{background-color:var(--accentcolorclear);}
 .side-8zPYf6 .itemSelected-1qLhcL{background-color: var(--boxcolor) ;color:var(--accentcolor)}
-.theme-dark #bd-settings-sidebar .ui-tab-bar-item:hover,.theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected,.app .side-8zPYf6 .itemDefault-3Jdr52:hover, .theme-dark .side-8zPYf6 .itemHover-EnbcjT:hover{background-color:var(--boxcolor);color:var(--accentcolor);}
+.theme-dark #bd-settings-sidebar .ui-tab-bar-item:hover,.theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected.app .side-8zPYf6 .itemDefault-3Jdr52:hover, .theme-dark .side-8zPYf6 .itemHover-EnbcjT:hover{background-color:var(--boxcolor);color:var(--accentcolor);}
 /*home icon*/
 .theme-dark .homeIcon-1FoKUJ {
     background: url('https://i.imgur.com/naHr38x.png');
