@@ -40,7 +40,7 @@
 .app .inner-zqa7da {background: var(--boxcolor); margin-left: 20px; margin-right: 20px;} /*here is where the textbox is*/ 
 .app .textArea-2Spzkt::-webkit-input-placeholder,{color:var(--accentcolorclear) ;font-family:"mandali";} 
 
-.app .title-3qD0b-{-webkit-box-shadow: 0 1px 0 hsla(0, 0%, 0%, 0.2), 0 2px 0 rgba(0,0,0,.06); background: var(--Transparency); box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06);} /*title*/
+.app .title-3qD0b-{-webkit-box-shadow: none;background: var(--Transparency);box-shadow: none;} /*title*/
 	
 .titleBar-AC4pGV::after {background: var(--Transparency) !important;content:""; position:absolute; z-index:-1; top:0; left:0; right:0; width:100%; height:22px}/*top title bar*/
 
