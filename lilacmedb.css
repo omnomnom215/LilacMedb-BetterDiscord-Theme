@@ -1,12 +1,10 @@
-
 /* Scrollbars */
 ::-webkit-scrollbar-thumb {border:2px solid var(--accentcolorclear) !important; background-color:transparent !important;} 
 ::-webkit-scrollbar, ::-webkit-scrollbar-track-piece {border-color: transparent !important; background: transparent !important;} 
 ::-webkit-scrollbar-corner {display: none !important;}
 /* disabling scroll bar on emoji */
-.scroller-2FKFPG::-webkit-scrollbar {
-    width: 0px;
-}
+.scroller-2FKFPG::-webkit-scrollbar {width: 0px;}
+
 /*home icon*/
 .app .homeIcon-1FoKUJ {
     background: url('https://i.imgur.com/pJNgJYd.png');
@@ -54,7 +52,11 @@
 .app .badge-1GsMF2,.app .guildsWrapper-5TJh6A .guildsAdd-21_IdK,.app .guildsWrapper-5TJh6A .guilds-1q_RqH .guildIcon-CT-ZDq,.app .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ .guildInner-3DSoA4{border-radius:var(--round2) !important;}
 
 
-.app .search .searchBar-2_Yu-C {background-color: var(--boxcolor)}/*search menu?*/
+.app .search .searchBar-2_Yu-C ,.search-bar input,.theme-dark .search .search-bar{background-color: var(--boxcolor);}/*search bar*/
+.search-bar .search-bar-inner,.search-bar{border:none;background:rgba(0,0,0,0);}
+
+
+
 
 /*channel section*/
 .iconCollapsed-3hFp_8, .iconDefault-3Gr8d2, .nameCollapsed-34uFWo, .nameDefault-2DI02H{color:var(--accentcolor2);}
@@ -160,3 +162,13 @@
 /*emote menu*/
 .bda-dark .emojiPicker-3m1S-j{background-color:rgba(0,0,0,.6);border:none;border-radius: 5px;}
 
+/*font and text shadow stuff*/
+#app-mount{text-shadow: var(--textshadow)}
+#app-mount{font-family:"mandali", sans-serif;font-size:100%;}
+*:not([class*="hljs"]):not(code):not(.ace editor){font-family: var(--font) !important}
+#app-mount .markup-2BOw-j:not(code) {color:var(--textcolor);font-size: var(--fontsize) !important}
+.theme-dark .innerNoAutocomplete-1WpcVO {border-radius: 20px;}
+.theme-dark .textArea-2Spzkt::-webkit-input-placeholder{color:var(--accentcolor);font-family:var(--font);word-spacing:3px;}
+.theme-dark .textArea-2Spzkt {color: hsla(0,0%,100%,.7);font-family: var(--font);}
+.search-bar.search-bar-light .search-bar-inner,.emojiPicker-3m1S-j{background-color:var(--Transparency)!Important;}
+.theme-dark .membersGroup-v9BXpm {color: hsla(0,0%,100%,.7);letter-spacing: .04em;}
