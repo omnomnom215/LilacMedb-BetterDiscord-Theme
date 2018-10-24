@@ -1,10 +1,11 @@
 //META{"name":"lilacmedb","description":"a clear wallpaper theme","author":"moth","version":"0.3"}*//{}
 
-@import url(https://omnomnom215.github.io/LilacMedb-BetterDiscord-Theme/lilacmedb.css);  
+@import url(https://omnomnom215.github.io/LilacMedb-BetterDiscord-Theme/lilacmedb.css); 
+@import url('https://fonts.googleapis.com/css?family=Mandali');
 
 :root {
-    --background:url(https://i.imgur.com/rbTInWz.jpg);  /*Wallpaper.*/
-    --font-size: 24px ;
+	--background:url(https://i.imgur.com/rbTInWz.jpg);  /*Wallpaper.*/
+	--font-size: 24px ;
 	--text:  #555;
 	--round: 10%;
 	--Transparency: hsla(0, 0%, 0%, 0.4);
@@ -12,6 +13,31 @@
 	--accentcolor: #f1e1ff; /*other accent color #5a3f72*/
 	--accentcolorclear: rgba(241, 225, 255,0.4);
 	--round2: 20%;
-	--textshadow:0px 0px 0px rgba(0,0,0,0.5);
+	--textshadow:0px 0px 2px rgba(0,0,0,0.8);
+	--font: 'mandali';
+	--fontsize: 1rem;
+	--textcolor:hsla(0,0%,100%,.7);
 }
-	
+#app-mount{text-shadow: var(--textshadow)}
+#app-mount{font-family:"mandali", sans-serif;font-size:100%;}
+
+*:not([class*="hljs"]):not(code):not(.ace editor){font-family: var(--font) !important}
+#app-mount .markup-2BOw-j:not(code) {color:var(--textcolor);font-size: var(--fontsize) !important}
+
+.theme-dark .innerNoAutocomplete-1WpcVO {
+	border-radius: 20px;
+}
+
+.theme-dark .textArea-2Spzkt::-webkit-input-placeholder{color:var(--accentcolor);font-family:var(--font);word-spacing:3px;}
+
+.theme-dark .textArea-2Spzkt {
+	    color: hsla(0,0%,100%,.7);
+	    font-family: var(--font);
+}
+
+.search-bar.search-bar-light .search-bar-inner,.emojiPicker-3m1S-j{background-color:var(--Transparency)!Important;}
+
+.theme-dark .membersGroup-v9BXpm {
+	    color: hsla(0,0%,100%,.7);
+	    letter-spacing: .04em;
+}
