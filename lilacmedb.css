@@ -45,7 +45,7 @@
 .app .title-3qD0b-{background: var(--Transparency);}
 .titleBar-AC4pGV::after {background: var(--Transparency) !important;content:""; position:absolute; z-index:-1; top:0; left:0; right:0; width:100%; height:22px}/*top title bar*/
 
-.contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM,.contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO{background: var(--boxcolor); transition: transform 0.3s;}/*channel select*/
+.contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM,.contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO{background: var(--boxcolor); transition: transform 0.3s;border-radius:10px}/*channel select*/
 .contentHoveredText-2D9B-x:hover, .contentHoveredVoice-3p_NEO:hover{transform: scale(1.05);} /*channel zoom on hover*/
 
 /* Roundness */
