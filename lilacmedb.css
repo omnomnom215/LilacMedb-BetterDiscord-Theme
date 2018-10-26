@@ -20,6 +20,7 @@
 
 .theme-dark .dividerEnabled-2TTlcf,.theme-dark .channelTextArea-rNsIhG,.container-1UB9sr{border:none;}
 .theme-dark .attachButtonDivider-3Glu60{display:none}
+.base-3dtUhz{border-radius:0 0 0 0}
 
 .container-2lgZY8, /*back ground stuff*/ .app .content-yTz4x3,.app .chat-3bRxxu,.container-2Thooq,.container-PNkimc,
 .app .layer-3QrUeG, .app .layers-3iHuyZ/*under username */ ,.app .typing-2GQL18 /*here is where it says typing...*/,.video-1FfuMD
@@ -108,10 +109,13 @@
 /*mentions*/
 .wrapper-232cHJ,.mention-1f5kbO{background-color:var(--boxcolor);text-shadow:0 0 1px #000;}
 .wrapper-232cHJ:hover,.mention-1f5kbO:hover{background-color:var(--boxcolor);}
-.app .wrapper-3WhCwL{background-color:var(--boxcolor);color:var(--accentcolor);text-shadow:0px 0px 2px var(--accentcolorclear); border-radius: 5%;}
-.app .isMentioned-N-h9aa {background: var(--boxcolor);margin-left:8px;}
+.app .wrapper-3WhCwL{background-color:var(--boxcolor);color:var(--accentcolor);text-shadow:0px 0px 2px var(--accentcolorclear);border-radius: 5%;}
+.app .isMentioned-N-h9aa {/* background: var(--boxcolor); */margin-left:8px;}
 .isMentionedCozy-3isp7y:after{background: transparent;border-left:6px solid var(--accentcolor);}
 .unreadBar-17qm9c{background:var(--accentcolorclear)}
+
+/*member list*/
+.app .memberOnline-1CIh-0{color:hsla(0, 0%, 100%, .7);}
 
 /*code box*/
 .app .markup-2BOw-j pre {background:var(--boxcolor) !important;text-shadow: 0 0 2px rgba(0,0,0,1);border: 2px solid #000 !important;}
@@ -178,7 +182,7 @@
 #app-mount{text-shadow: var(--textshadow)}
 #app-mount{font-family:"mandali", sans-serif;font-size:100%;}
 *:not([class*="hljs"]):not(code):not(.ace editor){font-family: var(--font) !important}
-#app-mount .markup-2BOw-j:not(code) {color:var(--textcolor);font-size: var(--fontsize) !important}
+#app-mount .markup-2BOw-j:not(code) {color:var(--textcolor);font-size: var(--fontsize) !important;}
 .theme-dark .innerNoAutocomplete-1WpcVO {border-radius: 20px;}
 .theme-dark .textArea-2Spzkt::-webkit-input-placeholder{color:var(--accentcolor);font-family:var(--font);word-spacing:3px;}
 .theme-dark .textArea-2Spzkt {color: hsla(0,0%,100%,.7);font-family: var(--font);}
