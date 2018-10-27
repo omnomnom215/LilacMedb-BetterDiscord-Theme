@@ -77,7 +77,7 @@
 .app .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ .guildInner-3DSoA4{border-radius:var(--round2) !important;}
 
 /*search bar*/
-.app .search .searchBar-2_Yu-C ,.search-bar input,.theme-dark .search .search-bar{background-color: var(--boxcolor);}
+.app .search .searchBar-2_Yu-C, .theme-dark .search .search-bar{background-color: var(--boxcolor);}
 .search-bar .search-bar-inner,.search-bar{border:none;background:rgba(0,0,0,0);}
 .search-bar input::-webkit-input-placeholder,.theme-dark .search .search-bar .public-DraftEditorPlaceholder-root{color:var(--accentcolor);font-size:1.1em !important;}
 
@@ -167,4 +167,9 @@
 .theme-dark .homeIcon-1FoKUJ {background: url('https://i.imgur.com/naHr38x.png');background-color: rgba(0,0,0,0)!important;color: rgba(0,0,0,0);background-position: center;background-size: cover;}
 
 /*emote menu*/
-.bda-dark .emojiPicker-3m1S-j{background-color:rgba(0,0,0,.6);border:none;border-radius: 5px;}
+.emojiPicker-3m1S-j{background-color:rgba(0,0,0,.6);border:none;border-radius: 5px;}
+.emojiPicker-3m1S-j .search-bar,.emojiPicker-3m1S-j .stickyHeader-1SS0JU{background:transparent}
+.search-bar.search-bar input::-webkit-input-placeholder,.emojiPicker-3m1S-j .category-2U57w6{color:var(--accentcolor)}
+.search-bar input{color: hsla(0,0%,100%,.7);}
+.emoji-picker, .emojiPicker-3m1S-j{border-radius:20px;}
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.selected-39BZ4S{border-bottom-color:var(--accentcolor);}
