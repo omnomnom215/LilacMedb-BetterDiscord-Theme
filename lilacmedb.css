@@ -76,6 +76,8 @@
 .app .badge-1GsMF2,.app .guildsWrapper-5TJh6A .guildsAdd-21_IdK,.app .guildsWrapper-5TJh6A .guilds-1q_RqH .guildIcon-CT-ZDq,
 .app .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ .guildInner-3DSoA4{border-radius:var(--round2) !important;}
 
+.header-2o-2hj:hover,.popout-open .header-2o-2hj{border-radius:15px;background-color:var(--accentcolorclear)}
+
 /*search bar*/
 .app .search .searchBar-2_Yu-C, .theme-dark .search .search-bar{background-color: var(--boxcolor);}
 .search-bar .search-bar-inner,.search-bar{border:none;background:rgba(0,0,0,0);}
@@ -173,3 +175,5 @@
 .search-bar input{color: hsla(0,0%,100%,.7);}
 .emoji-picker, .emojiPicker-3m1S-j{border-radius:20px;}
 .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.selected-39BZ4S{border-bottom-color:var(--accentcolor);}
+
+/*buttons!*/
