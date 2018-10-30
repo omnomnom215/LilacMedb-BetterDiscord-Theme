@@ -147,7 +147,7 @@
 
 
 /*avatars & status*/
-#app-mount .status-oxiHuE{border-radius: 20%;}
+#app-mount .status-oxiHuE{border-radius: 20%;left: 2px;top: 2px;}
 .maskProfile-1ObLFT,.mask-3OgeRz {-webkit-mask: none;mask: none;}
 .image-33JSyf, .wrapper-2F3Zv8{border-radius: 20%;}
 
