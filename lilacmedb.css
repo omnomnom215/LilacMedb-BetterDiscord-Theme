@@ -1,6 +1,7 @@
+
 /*font and text shadow stuff*/
 #app-mount{text-shadow: var(--textshadow)}
-#app-mount{font-family:"mandali", sans-serif;font-size:100%;}
+#app-mount{font-family:var(--font), sans-serif;font-size:100%;}
 *:not([class*="hljs"]):not(code):not(.ace editor){font-family: var(--font) !important}
 #app-mount .markup-2BOw-j:not(code) {color:var(--textcolor);}
 .theme-dark .innerNoAutocomplete-1WpcVO {border-radius: 20px;}
@@ -8,7 +9,7 @@
 .theme-dark .textArea-2Spzkt {color: hsla(0,0%,100%,.7);font-family: var(--font);}
 .search-bar.search-bar-light .search-bar-inner,.emojiPicker-3m1S-j{background-color:var(--Transparency)!Important;}
 .theme-dark .membersGroup-v9BXpm {color: hsla(0,0%,100%,.7);letter-spacing: .04em;}
-.app .textArea-2Spzkt::-webkit-input-placeholder,{color:var(--accentcolorclear) ;font-family:"mandali";} 
+.app .textArea-2Spzkt::-webkit-input-placeholder,{color:var(--accentcolorclear) ;font-family:var(--font);} 
 
 /* Scrollbars */
 ::-webkit-scrollbar-thumb {border:2px solid var(--accentcolorclear) !important; background-color:transparent !important;} 
