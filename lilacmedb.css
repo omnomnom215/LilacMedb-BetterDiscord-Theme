@@ -144,8 +144,10 @@
 /*dividers*/
 .app .divider-3gKybi span {background-color: rgba(0,0,0,.4) !important;}
 .app .divider-3gKybi:before{background-color:transparent !important;}
-
-
+.theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI{color:var(--accentcolor2)}
+.theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:after, .theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:before{border-color:var(--accentcolor2)}
+.theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI{color:var(--accentcolor);}
+.theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:after, .theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:before{border-color:var(--accentcolor)}
 /*avatars & status*/
 #app-mount .status-oxiHuE{border-radius: 20%}
 .maskProfile-1ObLFT,.mask-3OgeRz {-webkit-mask: none;mask: none;}
