@@ -1,0 +1,21 @@
+//META{"name":"crimson-night","description":"a dark wallpaper theme","author":"moth","version":"0.666"}*//{}
+
+@import url(https://omnomnom215.github.io/LilacMedb-BetterDiscord-Theme/lilacmedb.css); 
+@import url('https://fonts.googleapis.com/css?family=Mandali');
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700"');
+
+:root {
+    --background:url(https://i.imgur.com/P6LMq0Y.jpg);  /*Wallpaper.*/
+	--text:  #555;
+	--round: 20%;
+	--Transparency: hsla(0, 0%, 0%, 0.466);
+	--boxcolor: rgba(51, 11, 79,0.3);;
+	--accentcolor: #ff0c4d; /*other accent color #5a3f72*/
+	--accentcolor2:#471259;
+	--accentcolorclear: rgba(51, 11, 79,0.3);
+	--round:20%;
+	--round2: 20%;
+	--textshadow:0px 0px 2px rgba(0,0,0,0.8);
+	--font: 'Nunito';
+	--textcolor:hsla(0,0%,100%,.7);
+}
