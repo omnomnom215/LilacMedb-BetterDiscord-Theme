@@ -6,10 +6,12 @@
 #app-mount .markup-2BOw-j:not(code) {color:var(--textcolor);}
 .theme-dark .innerNoAutocomplete-1WpcVO {border-radius: 20px;}
 .theme-dark .textArea-2Spzkt::-webkit-input-placeholder{color:var(--accentcolor);font-family:var(--font);word-spacing:3px;}
-.theme-dark .textArea-2Spzkt {color: hsla(0,0%,100%,.7);font-family: var(--font);}
+.theme-dark .textArea-2Spzkt {color: var(--textcolor2);font-family: var(--font);}
 .search-bar.search-bar-light .search-bar-inner,.emojiPicker-3m1S-j{background-color:var(--Transparency)!Important;}
-.theme-dark .membersGroup-v9BXpm {color: hsla(0,0%,100%,.7);letter-spacing: .04em;}
+.theme-dark .membersGroup-v9BXpm {color: var(--textcolor2);letter-spacing: .04em;}
 .app .textArea-2Spzkt::-webkit-input-placeholder,{color:var(--accentcolorclear) ;font-family:var(--font);} 
+
+
 
 /* Scrollbars */
 ::-webkit-scrollbar-thumb {border:2px solid var(--accentcolorclear) !important; background-color:transparent !important;} 
@@ -175,7 +177,7 @@
 .emojiPicker-3m1S-j{background-color:rgba(0,0,0,.6);border:none;border-radius: 5px;}
 .emojiPicker-3m1S-j .search-bar,.emojiPicker-3m1S-j .stickyHeader-1SS0JU{background:transparent}
 .search-bar.search-bar input::-webkit-input-placeholder,.emojiPicker-3m1S-j .category-2U57w6{color:var(--accentcolor)}
-.search-bar input{color: hsla(0,0%,100%,.7);}
+.search-bar input{color: var(--textcolor2);}
 .emoji-picker, .emojiPicker-3m1S-j{border-radius:20px;}
 .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.selected-39BZ4S{border-bottom-color:var(--accentcolor);}
 
