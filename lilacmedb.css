@@ -1,7 +1,7 @@
 
 /*font and text shadow stuff*/
 #app-mount{text-shadow: var(--textshadow)}
-#app-mount{font-family:var(--font), sans-serif;font-size:100%;}
+#app-mount{font-family: var(--font);font-size:100%;}
 *:not([class*="hljs"]):not(code):not(.ace editor){font-family: var(--font) !important}
 #app-mount .markup-2BOw-j:not(code) {color:var(--textcolor);}
 .theme-dark .innerNoAutocomplete-1WpcVO {border-radius: 20px;}
@@ -10,7 +10,7 @@
 .search-bar.search-bar-light .search-bar-inner,.emojiPicker-3m1S-j{background-color:var(--Transparency)!Important;}
 .theme-dark .membersGroup-v9BXpm {color: var(--textcolor2);letter-spacing: .04em;}
 .app .textArea-2Spzkt::-webkit-input-placeholder,{color:var(--accentcolorclear) ;font-family:var(--font);} 
-
+html,body {text-rendering: optimizeLegibility !important}
 
 
 /* Scrollbars */
@@ -70,6 +70,8 @@
 .contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM,.contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO{background: var(--boxcolor); transition: transform 0.3s;border-radius:10px}
 /*channel zoom on hover*/
 .contentHoveredText-2D9B-x:hover, .contentHoveredVoice-3p_NEO:hover{transform: scale(1.05);} 
+
+.theme-dark .username-_4ZSMR{opacity:0.7}
 
 /* Roundness */
 .app .mask-3OgeRz {-webkit-mask: none;mask: none;}
@@ -182,3 +184,4 @@
 .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.selected-39BZ4S{border-bottom-color:var(--accentcolor);}
 
 /*buttons!*/
+
