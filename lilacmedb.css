@@ -36,9 +36,11 @@ html,body {text-rendering: optimizeLegibility !important}
 
 /*back ground stuff*/ 
 .container-2lgZY8, .app .content-yTz4x3,.app .chat-3bRxxu,.container-2Thooq,.container-PNkimc,
-.app .layer-3QrUeG, .app .layers-3iHuyZ,.app .typing-2GQL18,.video-1FfuMD{background: hsla(0, 0%, 0%, 0) !important;}
+.app .layer-3QrUeG, .app .layers-3iHuyZ,.app .typing-2GQL18,.video-1FfuMD,.theme-dark .headerBar-UHpsPw{background: hsla(0, 0%, 0%, 0) !important;}
 .contentRegion-3nDuYy,.sidebarRegion-VFTUkN,.app .standardSidebarView-3F1I7i,
 .app .standardSidebarView-3F1I7i .content-region,.app .guild-1EfMGQ .guildInner-3DSoA4{background:rgba(0,0,0,.2) !important;}
+
+.theme-dark .headerBar-UHpsPw{box-shadow:none;-webkit-box-shadow:none;}
 
 .channels-Ie2l6A,.app .messagesWrapper-3lZDfY,.app .members-1998pB,.app .activityFeed-28jde9, .app .wrapper-29NfPK,.app .title-3qD0b-{background: var(--Transparency) !important;}
 .app .search-results-wrap, .app .search-results-wrap .search-result .search-result-message.hit,
@@ -117,7 +119,7 @@ html,body {text-rendering: optimizeLegibility !important}
 .app .autocomplete-1vrmpx,.app .autocompleteInner-zh20B_{background-color: rgba(0,0,0,.4);box-shadow: 0 0 3px 1px #000;}
 .app .selectorSelected-1_M1WV{background-color: var(--boxcolor);}
 /*modals*/
-.theme-dark .modal-3HD5ck{background:var(--boxcolor);}
+.theme-dark .modal-3HD5ck,.theme-dark .keyboardShortcutsModal-3piNz7{background:var(--boxcolor);}
 .theme-dark .wrapper-2ZbzR9{background:transparent !important;}
 .theme-dark .defaultColor-1_ajX0{color:#fff;}
 .theme-dark .primary-jw0I4K,.theme-dark .protip-YaFfgO{color:var(--textcolor);}
