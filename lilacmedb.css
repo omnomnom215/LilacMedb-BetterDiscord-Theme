@@ -1,17 +1,8 @@
 
 /*font and text shadow stuff*/
-#app-mount{text-shadow: var(--textshadow)}
-#app-mount{font-family: var(--font);font-size:100%;}
-*:not([class*="hljs"]):not(code):not(.ace editor){font-family: var(--font) !important}
-#app-mount .markup-2BOw-j:not(code) {color:var(--textcolor);}
-.theme-dark .innerNoAutocomplete-1WpcVO {border-radius: 20px;}
-.theme-dark .textArea-2Spzkt::-webkit-input-placeholder{color:var(--accentcolor);font-family:var(--font);word-spacing:3px;}
-.theme-dark .textArea-2Spzkt {color: var(--textcolor2);font-family: var(--font);}
-.search-bar.search-bar-light .search-bar-inner,.emojiPicker-3m1S-j{background-color:var(--Transparency)!Important;}
-.theme-dark .membersGroup-v9BXpm {color: var(--textcolor2);letter-spacing: .04em;}
-.app .textArea-2Spzkt::-webkit-input-placeholder,{color:var(--boxcolor) ;font-family:var(--font);} 
-html,body {text-rendering: optimizeLegibility !important}
-
+::-webkit-input-placeholder, body, button, input, select, textarea{font-family:var(--font)!important;text-shadow:var(--textshadow)!important;text-rendering: optimizeLegibility !important;}
+::-webkit-input-placeholder{color:var(--accentcolor) !important}
+.theme-dark .textArea-2Spzkt,.theme-dark .markup-2BOw-j,.theme-dark .membersGroup-v9BXpm,.theme-dark .activity-1IYsbk{color:var(--textcolor2)!important;}
 
 /* Scrollbars */
 ::-webkit-scrollbar-thumb {border:2px solid var(--boxcolor) !important; background-color:transparent !important;} 
@@ -62,7 +53,7 @@ html,body {text-rendering: optimizeLegibility !important}
  /*around the text box*/
 .app .chat-3bRxxu form {Background:var(--Transparency);	margin-left: 0px !important;margin-right: 0px !important;}
 /*here is where the textbox is*/ 
-.app .inner-zqa7da {background: var(--boxcolor); margin-left: 20px; margin-right: 20px;} 
+.app .inner-zqa7da {background: var(--boxcolor); margin-left: 20px; margin-right: 20px;border-radius:20px} 
 /*title*/
 .app .title-3qD0b-,.header-2o-2hj{-webkit-box-shadow: none;box-shadow: none;}
 /*top title bar*/
