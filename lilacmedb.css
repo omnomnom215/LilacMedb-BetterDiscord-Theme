@@ -43,7 +43,9 @@
 .member-3W1lQa{transition: transform 0.3s;}/*member icon zoom on hover*/
 .member-3W1lQa:hover{transform: scale(1.05);}
 
-
+/* hide public button and guild seperator */
+#bd-pub-li,.guildSeparator-1X4GQ1{display:none;}
+/* no idea what this stuff does currently */
 .theme-dark .dividerEnabled-2TTlcf,.theme-dark .channelTextArea-rNsIhG,.container-1UB9sr{border:none;}
 .theme-dark .attachButtonDivider-3Glu60{display:none}
 .base-3dtUhz{border-radius:0 0 0 0}
