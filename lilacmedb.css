@@ -1,6 +1,6 @@
-
+@import url('https://fonts.googleapis.com/css?family=Lato&subset=latin-ext');
 /*font and text shadow stuff*/
-::-webkit-input-placeholder, body, button, input, select, textarea{font-family: var(--font) !important;text-shadow:var(--textshadow)!important;text-rendering: optimizeLegibility !important;}
+::-webkit-input-placeholder, body, button, input, select, textarea{font-family: var(--font), 'lato',sans-serif!important;text-shadow:var(--textshadow)!important;text-rendering: optimizeLegibility !important;}
 ::-webkit-input-placeholder{color:var(--accentcolor) !important}
 .theme-dark .textArea-2Spzkt,.theme-dark .markup-2BOw-j,.theme-dark .membersGroup-v9BXpm,.theme-dark .activity-1IYsbk{color:var(--textcolor)!important;}
 
