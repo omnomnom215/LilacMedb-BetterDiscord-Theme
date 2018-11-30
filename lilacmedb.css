@@ -127,13 +127,13 @@
 .userPopout-3XzG_A{box-shadow:none; -webkit-box-shadow:none;}
 
 /*full sized profile*/
-.topSectionPlaying-1J5E4n{background-color:var(--accentcolorclear2)}
+.topSectionPlaying-1J5E4n{background-color:var(---boxcolor2)}
 .headerFill-adLl4x{background-color:rgba(0,0,0,.2)}
 .theme-dark .body-3ND3kc{background:var(--Transparency)}
-.root-SR8cQa{border: 2px solid var(--accentcolorclear2);border-radius:20px}
+.root-SR8cQa{border: 2px solid var(---boxcolor2);border-radius:20px}
 /*extra bits*/
 .theme-dark .message-2qRu38,.theme-dark .footer-2yfCgX,.theme-dark .elevationBorderHigh-2WYJ09{background-color:transparent;-webkit-box-shadow:none;box-shadow:none}
-.theme-dark .message-2qRu38{background-color:var(--accentcolorclear2);}
+.theme-dark .message-2qRu38{background-color:var(---boxcolor2);}
 
 /*search menu*/
 .theme-dark .searchPopout-1vUlP3,.theme-dark .container-3ayLPN,.theme-dark .focused-2bY0OD{background-color:var(--boxcolor);border:none !important;}
