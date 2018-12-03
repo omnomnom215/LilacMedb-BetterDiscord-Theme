@@ -123,7 +123,14 @@
 .theme-dark .defaultColor-1_ajX0{color:#fff;}
 .theme-dark .primary-jw0I4K,.theme-dark .protip-YaFfgO{color:var(--textcolor);}
 .theme-dark .close-18n9bP{color:var(--textcolor);}
-
+/* upload modal */
+.uploadModal-2ifh8j,.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j{background-color:var(--boxcolor);border:2px solid var(--accentcolor);}
+.uploadModal-2ifh8j .footer-3mqk7D{background-color:transparent;}
+.uploadModal-2ifh8j .footer-3mqk7D .button{margin-right:4px;color:var(--accentcolor);background-color:var(--boxcolor);height: 38px;}
+.uploadModal-2ifh8j .footer-3mqk7D .button:hover{opacity:0.8;text-decoration:none;}
+.uploadModal-2ifh8j .footer-3mqk7D .button-primary{margin-right:0px!important;background-color:var(--boxcolor);}
+.uploadModal-2ifh8j .inner-3nWsbo{border:none}
+.theme-brand .inner-zqa7da{background-color:var(--boxcolor)}
 /*pinned message modal*/
 .theme-dark .header-ykumBX{background-color:transparent!important;border:none !important;}
 .theme-dark .messagesPopoutWrap-1MQ1bW{background-color:var(--Transparency);border:none !important;}
