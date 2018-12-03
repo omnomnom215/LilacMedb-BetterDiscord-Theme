@@ -250,6 +250,6 @@ border-top: 2px solid var(--boxcolor);box-shadow: 0 0 4px 4px var(--boxcolor);}
 /* buttons */
 
 /* guild bar */
-.guild-1EfMGQ.selected-ML3OIq:before,.guild-1EfMGQ.unread-qLkInr:before{border-radius: 23%;height: 111%;margin-top: -56%;left: -6%;width: 111%;}
+.guild-1EfMGQ.selected-ML3OIq:before,.guild-1EfMGQ.unread-qLkInr:before{border-radius: var(--round2);height: 110%;margin-top: -55%;left: -5%;width: 110%;}
 .guild-1EfMGQ.unread-qLkInr:before{background-color:var(--boxcolor2)!important;}
 .guild-1EfMGQ.selected-ML3OIq:before{background-color:var(--accentcolor)!important;}
