@@ -149,11 +149,11 @@
 .roleCircle-3xAZ1j{border-radius:var(--round)}
 .role-2irmRk{border:2px solid; border-radius:6px;}
 /*full sized profile*/
-#app-mount .topSectionNormal-2-vo2m,#app-mount .headerNormal-T_seeN,#app-mount .topSectionNormal-2-vo2m{background-color:var(--Transparency);}
-.topSectionPlaying-1J5E4n,#app-mount .headerPlaying-j0WQBV,.topSectionPlaying-1J5E4n{background-color:var(--boxcolor2)}
-.topSectionStreaming-1Tpf5X,#app-mount .headerStreaming-2FjmGz,.topSectionStreaming-1Tpf5X{background-color:rgba(80, 0, 255, 0.6)}
-.topSectionSpotify-1lI0-P,#app-mount .headerSpotify-zpWxgT,.topSectionSpotify-1lI0-P{background-color:rgba(33, 255, 141, 0.6)}
-.topSectionXbox-3fWLjS,#app-mount .headerXbox-3G-4PF,.topSectionXbox-3fWLjS{background-color:rgba(255, 89, 0, 0.6)}
+#app-mount .topSectionNormal-2-vo2m,#app-mount .headerNormal-T_seeN{background-color:var(--Transparency);}
+.topSectionPlaying-1J5E4n,#app-mount .headerPlaying-j0WQBV{background-color:var(--boxcolor2)}
+.topSectionStreaming-1Tpf5X,#app-mount .headerStreaming-2FjmGz{background-color:rgba(80, 0, 255, 0.6)}
+.topSectionSpotify-1lI0-P,#app-mount .headerSpotify-zpWxgT{background-color:rgba(33, 255, 141, 0.6)}
+.topSectionXbox-3fWLjS,#app-mount .headerXbox-3G-4PF{background-color:rgba(255, 89, 0, 0.6)}
 .headerFill-adLl4x{background-color:rgba(0,0,0,.2)}
 .theme-dark .body-3ND3kc{background:var(--Transparency)}
 .root-SR8cQa{border: 2px solid var(--boxcolor2);border-radius:20px}
