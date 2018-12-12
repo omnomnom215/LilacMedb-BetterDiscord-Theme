@@ -260,11 +260,19 @@ border-top: 2px solid var(--boxcolor);box-shadow: 0 0 4px 4px var(--boxcolor);}
 .guild-1EfMGQ.selected-ML3OIq:before{background-color:var(--accentcolor)!important;} */
 
 /* store and game libary */
-.theme-dark .applicationStore-1pNvnv,.theme-dark .gameLibrary-TTDw4Y,.theme-dark .tileMedia-1q3guD{background:var(--Transparency)}
+.theme-dark .applicationStore-1pNvnv,.theme-dark .gameLibrary-TTDw4Y,.theme-dark .root-1bFE0x,.theme-dark .row-1bU71H,.theme-dark .card-NB61oR,.theme-dark .bodySection-jqkkIP, .theme-light .bodySection-jqkkIP{background-color:var(--Transparency)}
+.theme-dark .tileMedia-1q3guD,.theme-dark .tileMedia-1q3guD:hover{background-color:var(--boxcolor);}
+.theme-dark .applicationMedia-2KCz_t,.theme-dark .itemBackground-1jfD8p,.theme-dark .tileMedia-1q3guD,.theme-dark .root-1bFE0x,.theme-dark .item-3V15ea, .theme-light .item-3V15ea,#app-mount .card-NB61oR{border-radius:10px !important;}
+.splash-3K76bN, .splashPlaceholder-1ev-9c,.section-foaVwT:first-child{border-radius:10px 10px 0 0}
+.theme-dark .description-3rB3Rp,.section-foaVwT:last-child{border-radius:0 0 10px 10px}
+.theme-dark .bodySection-jqkkIP{border-top-color:transparent;}
+.theme-dark .card-NB61oR{color:var(--accentcolor)}
+
+.theme-dark .row-1bU71H{color:var(--textcolor);border-radius:10px}
+
 .theme-dark .itemBackground-1jfD8p,.theme-dark .tileMedia-24cT6_{background:transparent;}
 .theme-dark .itemBackground-1jfD8p:before{background: -webkit-radial-gradient(center, ellipse cover, rgba(0,0,0,0) 0%,rgba(54,0,112,0) 72%,rgba(75,0,155,0.15) 100%);
-background: radial-gradient(ellipse at center, rgba(0,0,0,0) 0%,rgba(54,0,112,0) 72%,rgba(75,0,155,0.15) 100%);}
-.theme-dark .applicationMedia-2KCz_t{border-radius:10px !important;}
+background: radial-gradient(ellipse at center, rgba(0,0,0,0) 0%,rgba(54,0,112,0) 72%,rgba(75,0,155,0.15) 100%);border-radius:10px;}
 
 .theme-dark .applicationTile-1Goy1W:hover{background-color:var(--Transparency);border:2px solid var(--boxcolor2);box-sizing: border-box;}
 .theme-dark .applicationTile-1Goy1W{background-color:var(--Transparency);border:2px solid transparent;border-radius:10px;}
@@ -272,6 +280,11 @@ background: radial-gradient(ellipse at center, rgba(0,0,0,0) 0%,rgba(54,0,112,0)
 .theme-dark .iconCircle-1dlYo0{color:var(--Transparency);background-color:var(--boxcolor2);}
 .theme-dark .circle-1nK_79,.theme-dark .popout-2xBvMR{color:var(--textcolor)}
 .theme-dark .smallHeader-2h-9-U{color:var(--accentcolor)}
-.theme-dark .description-3rB3Rp{background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(54,0,112,0) 72%,rgba(75,0,155,0.3) 100%);
-background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(54,0,112,0) 72%,rgba(75,0,155,0.3) 100%);}
+.theme-dark .description-3rB3Rp{background: -webkit-linear-gradient(top, rgba(0,0,0,0) 1%,rgba(51,13,64,0) 72%,var(--boxcolor) 100%);
+background: linear-gradient(to bottom, rgba(0,0,0,0) 1%,rgba(51,13,64,0) 72%,var(--boxcolor) 100%);}
 .theme-dark .mediaFade-1SdEfL{background:none;}
+
+
+.scrollerStore-390omS::-webkit-scrollbar-track{background-color:transparent!important}
+
+.theme-dark .premium-39U29H, .theme-light .premium-39U29H{background:var(--Transparency)}
