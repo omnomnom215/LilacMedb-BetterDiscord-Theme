@@ -1,3 +1,4 @@
+
 /*font and text shadow stuff*/
 ::-webkit-input-placeholder, body, button, input, select, textarea{font-family: var(--font),sans-serif!important;text-shadow:var(--textshadow)!important;text-rendering: optimizeLegibility !important;}
 ::-webkit-input-placeholder{color:var(--accentcolor) !important}
@@ -257,3 +258,20 @@ border-top: 2px solid var(--boxcolor);box-shadow: 0 0 4px 4px var(--boxcolor);}
 /* .guild-1EfMGQ.selected-ML3OIq:before,.guild-1EfMGQ.unread-qLkInr:before{border-radius: var(--round2);height: 110%;margin-top: -55%;left: -5%;width: 110%;}
 .guild-1EfMGQ.unread-qLkInr:before{background-color:var(--boxcolor2)!important;}
 .guild-1EfMGQ.selected-ML3OIq:before{background-color:var(--accentcolor)!important;} */
+
+/* store and game libary */
+.theme-dark .applicationStore-1pNvnv,.theme-dark .gameLibrary-TTDw4Y,.theme-dark .tileMedia-1q3guD{background:var(--Transparency)}
+.theme-dark .itemBackground-1jfD8p,.theme-dark .tileMedia-24cT6_{background:transparent;}
+.theme-dark .itemBackground-1jfD8p:before{background: -webkit-radial-gradient(center, ellipse cover, rgba(0,0,0,0) 0%,rgba(54,0,112,0) 72%,rgba(75,0,155,0.15) 100%);
+background: radial-gradient(ellipse at center, rgba(0,0,0,0) 0%,rgba(54,0,112,0) 72%,rgba(75,0,155,0.15) 100%);}
+.theme-dark .applicationMedia-2KCz_t{border-radius:10px !important;}
+
+.theme-dark .applicationTile-1Goy1W:hover{background-color:var(--Transparency);border:2px solid var(--boxcolor2);box-sizing: border-box;}
+.theme-dark .applicationTile-1Goy1W{background-color:var(--Transparency);border:2px solid transparent;border-radius:10px;}
+.theme-dark .popout-2xBvMR{background-color:rgba(0,0,0,.8);}
+.theme-dark .iconCircle-1dlYo0{color:var(--Transparency);background-color:var(--boxcolor2);}
+.theme-dark .circle-1nK_79,.theme-dark .popout-2xBvMR{color:var(--textcolor)}
+.theme-dark .smallHeader-2h-9-U{color:var(--accentcolor)}
+.theme-dark .description-3rB3Rp{background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(54,0,112,0) 72%,rgba(75,0,155,0.3) 100%);
+background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(54,0,112,0) 72%,rgba(75,0,155,0.3) 100%);}
+.theme-dark .mediaFade-1SdEfL{background:none;}
