@@ -4,7 +4,8 @@
 ::-webkit-input-placeholder{color:var(--accentcolor) !important}
 #app-mount .textArea-2Spzkt,#app-mount .markup-2BOw-j,#app-mount .membersGroup-v9BXpm,#app-mount .activity-1IYsbk,#app-mount .header-ykumBX .title-3pkaKd {color:var(--textcolor)!important;}
 /* Scrollbars */
-::-webkit-scrollbar-thumb {border:2px solid var(--boxcolor) !important; background-color:transparent !important;} 
+::-webkit-scrollbar-thumb {border:2px solid var(--boxcolor2) !important; background-color:transparent !important;} 
+.scroller-wrap .scroller::-webkit-scrollbar{width:10px;}
 ::-webkit-scrollbar, ::-webkit-scrollbar-track-piece {border-color: transparent !important; background: transparent !important;} 
 ::-webkit-scrollbar-corner {display: none !important;}
 /* disabling scroll bar on emoji */
@@ -19,7 +20,7 @@
 .container-2lgZY8, #app-mount .content-yTz4x3, #app-mount .chat-3bRxxu, .container-2Thooq, .container-PNkimc, #app-mount .layer-3QrUeG, #app-mount .layers-3iHuyZ, #app-mount .typing-2GQL18, .video-1FfuMD, .libraryHeader-3g95kE
     {background: rgba(0, 0, 0, 0) !important;}
 #app-mount .headerBar-UHpsPw{background:rgba(0,0,0,0)}
-
+.theme-dark .backdrop-1wrmKB{opacity:.3 !important;}
 .contentRegion-3nDuYy,.sidebarRegion-VFTUkN,#app-mount .standardSidebarView-3F1I7i,.theme-dark .rowWrapperActive-2L7i9f,
     #app-mount .standardSidebarView-3F1I7i .content-region,#app-mount .guild-1EfMGQ .guildInner-3DSoA4{background:rgba(0,0,0,.2) !important;}
 /* box-shadow and webkit box shadow removal */
@@ -39,12 +40,13 @@
 /* hide public button and guild seperator */
 #bd-pub-li,.guildSeparator-1X4GQ1{display:none;}
 
-/* no idea what this stuff does currently */
+/* no idea where this stuff goes currently */
 #app-mount .dividerEnabled-2TTlcf,#app-mount .channelTextArea-rNsIhG,.container-1UB9sr{border:none;}
 #app-mount .attachButtonDivider-3Glu60,#app-mount .divider-2PMBlV{display:none}
 .base-3dtUhz{border-radius:0 0 0 0}
 #app-mount .homeIcon-1FoKUJ{display:block;}
 .separator-2zcjq8{border:none}
+.username-_4ZSMR{text-shadow:1px 1px #000;}
 /* libary bits */
 #app-mount .header-39GIC8{border-bottom-color:transparent;}
 #app-mount .rowWrapper-2fB6P0+.rowWrapper-2fB6P0 .row-ZLfFhY{border-top-color:transparent;}
