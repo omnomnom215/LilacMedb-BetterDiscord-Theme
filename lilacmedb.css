@@ -4,10 +4,12 @@
 ::-webkit-input-placeholder{color:var(--accentcolor) !important}
 #app-mount .textArea-2Spzkt,#app-mount .markup-2BOw-j,#app-mount .membersGroup-v9BXpm,#app-mount .activity-1IYsbk,#app-mount .header-ykumBX .title-3pkaKd {color:var(--textcolor)!important;}
 /* Scrollbars */
-::-webkit-scrollbar-thumb {border:2px solid var(--boxcolor2) !important; background-color:transparent !important;} 
+::-webkit-scrollbar-thumb {border:2px solid var(--boxcolor2) !important;background-color:transparent !important;} 
 .scroller-wrap .scroller::-webkit-scrollbar{width:10px;}
 ::-webkit-scrollbar, ::-webkit-scrollbar-track-piece {border-color: transparent !important; background: transparent !important;} 
 ::-webkit-scrollbar-corner {display: none !important;}
+.scrollbar-3dvm_9::-webkit-scrollbar{width:8px;}
+.scrollbarGhostHairline-1mSOM1::-webkit-scrollbar-thumb{border-radius:5px}
 /* disabling scroll bar on emoji */
 .scroller-2FKFPG::-webkit-scrollbar {width: 0px;}
 
@@ -260,13 +262,10 @@ border-top: 2px solid var(--boxcolor);box-shadow: 0 0 4px 4px var(--boxcolor);}
 .bda-dark #bda-qem button.active,.bda-dark #bda-qem button:hover,#bda-qem button.active,#bda-qem button:hover{background-color:var(--boxcolor2)}
 .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.selected-39BZ4S{border-bottom-color:var(--accentcolor)}
 
-/*guild stuff */
-/* .da-guildInner{border:3px solid #000;border-radius:50% !important;box-sizing:border-box !important;}
-{border-radius:0px !important;border:2px solid transparent;box-sizing:border-box;}
-#app-mount .guild-1EfMGQ {background-color:var(--transparency)}
-.guild-1EfMGQ.unread-qLkInr:before{border: 3px solid var(--accentcolor);height: 100%;margin-top: -50%;left: 0%;width: 100%;border-radius:50px;box-sizing:border-box;z-index:2;pointer-events: none;}
-.guild-1EfMGQ.unread-qLkInr:before{background-color:transparent!important;}
-.guild-1EfMGQ.selected-ML3OIq:before{background-color:transparent!important;} */
+.da-guildInner{border-radius:var(--round) !important;}
+.guild-1EfMGQ.unread-qLkInr:before{border: 2px solid var(--boxcolor2);height: 100%;margin-top: -54%;left: -4%;width: 100%;border-radius: var(--round);}
+.guild-1EfMGQ.selected-ML3OIq:before{border: 2px solid var(--accentcolor);height: 100%;margin-top: -54%;left: -4%;width: 100%;border-radius: var(--round);}
+.guild-1EfMGQ.unread-qLkInr:before,.guild-1EfMGQ.selected-ML3OIq:before{background-color:transparent!important;}
 
 /* store and game libary */
 #app-mount .applicationStore-1pNvnv,#app-mount .gameLibrary-TTDw4Y,#app-mount .root-1bFE0x,#app-mount .row-1bU71H,#app-mount .card-NB61oR,#app-mount .bodySection-jqkkIP{background-color:var(--Transparency)}
