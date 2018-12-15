@@ -1,6 +1,7 @@
 //META{"name":"lilacmedb","description":"a clear wallpaper theme credits to satoru for help and css snippets","author":"moth","version":"0.3"}*//{}
 
-@import url(https://omnomnom215.github.io/LilacMedb-BetterDiscord-Theme/lilacmedb.css); 
+@import url(https://omnomnom215.github.io/LilacMedb-BetterDiscord-Theme/lilacmedb.css);
+@import url(https://omnomnom215.github.io/LilacMedb-BetterDiscord-Theme/guildborder.css); 
 @import url('https://fonts.googleapis.com/css?family=Mandali');
 
 :root {
