@@ -1,6 +1,7 @@
 //META{"name":"crimson-night","description":"a dark wallpaper theme with 2 accent colors","author":"moth#0243","version":"0.6.0"}*//{}
 
 @import url(https://omnomnom215.github.io/LilacMedb-BetterDiscord-Theme/lilacmedb.css); 
+@import url(https://omnomnom215.github.io/LilacMedb-BetterDiscord-Theme/guildborder.css); 
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700"');
 @import url('https://fonts.googleapis.com/css?family=Comfortaa');
 
@@ -19,3 +20,4 @@
 	--textcolor: rgba(255,255,255,0.8);
 	--textcolor1:  #555;
 }
+
