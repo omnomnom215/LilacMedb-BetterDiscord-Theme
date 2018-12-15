@@ -1,4 +1,4 @@
-.wordmark-2iDDfm::after{content:var(--wordmark)!important;white-space: nowrap;font-size:16px;color:var(--Transparency);}
+.wordmark-2iDDfm::after{content:var(--wordmark)!important;white-space: nowrap;font-size:16px;color:var(--textcolor1);}
 .wordmark-2iDDfm svg {display: none;}
 /*font and text shadow stuff*/
 ::-webkit-input-placeholder, body, button, input, select, textarea{font-family: var(--font),sans-serif!important;text-shadow:var(--textshadow)!important;text-rendering: optimizeLegibility !important;}
