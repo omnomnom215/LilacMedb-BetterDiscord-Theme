@@ -1,0 +1,4 @@
+.guild-1EfMGQ .guildInner-3DSoA4{border-radius:8px !important;background-color:rgba(0,0,0,.2)!important;}
+.guild-1EfMGQ.unread-qLkInr:before{border: 2px solid var(--boxcolor2);height: 100%;margin-top: -27px;left: -2px;width: 100%;border-radius: 10px;}
+.guild-1EfMGQ.selected-ML3OIq:before{border: 2px solid var(--accentcolor);height: 100%;margin-top: -27px;left: -2px;width: 100%;border-radius: 10px;}
+.guild-1EfMGQ.unread-qLkInr:before,.guild-1EfMGQ.selected-ML3OIq:before{background-color:transparent!important;}
