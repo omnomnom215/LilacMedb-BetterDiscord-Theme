@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Mandali');
 
 :root {
+	--wordmark:"lilacmedb by moth#0243";
 	--background:url(https://i.imgur.com/rbTInWz.jpg);  /*Wallpaper.*/
 	--text:  #555;
 	--round: 10%;
