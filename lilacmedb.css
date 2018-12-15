@@ -1,4 +1,5 @@
-
+.wordmark-2iDDfm::after{content:var(--wordmark)!important;white-space: nowrap;font-size:16px;color:var(--Transparency);}
+.wordmark-2iDDfm svg {display: none;}
 /*font and text shadow stuff*/
 ::-webkit-input-placeholder, body, button, input, select, textarea{font-family: var(--font),sans-serif!important;text-shadow:var(--textshadow)!important;text-rendering: optimizeLegibility !important;}
 ::-webkit-input-placeholder{color:var(--accentcolor) !important}
@@ -67,7 +68,7 @@ background: linear-gradient(to bottom, rgba(0,0,0,0) 5%,var(--Transparency) 100%
 /*title*/
 #app-mount .title-3qD0b-,.header-2o-2hj{-webkit-box-shadow: none;box-shadow: none;}
 /*top title bar*/
-.titleBar-AC4pGV::after {background: var(--Transparency) !important;content:""; position:absolute; z-index:-1; top:0; left:0; right:0; width:100%; height:22px}
+.titleBar-AC4pGV::after {background: var(--Transparency) !important;content:"";position:absolute;z-index:-1;top:0;left:0;right:0;width:100%;height:22px;}
 
 /* blocked messages and chat area dividers */
 #app-mount .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-,#app-mount .messageGroupBlocked-3wrQQX{background-color: var(--boxcolor)!important;border:none;border-radius:5px;color:var(--accentcolor)}
@@ -244,9 +245,7 @@ border-top: 2px solid var(--boxcolor);box-shadow: 0 0 4px 4px var(--boxcolor);}
 /*home icon*/
 #app-mount .homeIcon-1FoKUJ {background: url('https://i.imgur.com/naHr38x.png');background-color: rgba(0,0,0,0)!important;color: rgba(0,0,0,0);background-position: center;background-size: cover;}
 .guilds-1q_RqH > .guild-1EfMGQ:first-child > .guildInner-3DSoA4{background:none !important;}
-/* guild add button */
-#app-mount .guildsAdd-21_IdK{color:var(--boxcolor2);background:rgba(0,0,0,.2);border:none;}
-#app-mount .guildsAdd-21_IdK:hover{color:var(--accentcolor);}
+
 /*emote menu*/
 .emojiPicker-3m1S-j{border:1px solid transparent !important;}
 .bda-dark #bda-qem,.bda-dark .emoji-picker, .bda-dark .emojiPicker-3m1S-j,.bda-dark #bda-qem-favourite-container, .bda-dark #bda-qem-twitch-container,
@@ -262,11 +261,16 @@ border-top: 2px solid var(--boxcolor);box-shadow: 0 0 4px 4px var(--boxcolor);}
 .bda-dark #bda-qem button.active,.bda-dark #bda-qem button:hover,#bda-qem button.active,#bda-qem button:hover{background-color:var(--boxcolor2)}
 .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.selected-39BZ4S{border-bottom-color:var(--accentcolor)}
 
-.da-guildInner{border-radius:var(--round) !important;}
-.guild-1EfMGQ.unread-qLkInr:before{border: 2px solid var(--boxcolor2);height: 100%;margin-top: -54%;left: -4%;width: 100%;border-radius: var(--round);}
-.guild-1EfMGQ.selected-ML3OIq:before{border: 2px solid var(--accentcolor);height: 100%;margin-top: -54%;left: -4%;width: 100%;border-radius: var(--round);}
-.guild-1EfMGQ.unread-qLkInr:before,.guild-1EfMGQ.selected-ML3OIq:before{background-color:transparent!important;}
-
+/* guild bar */
+#app-mount .guild-1EfMGQ .guildInner-3DSoA4{border-radius:8px !important;background-color:rgba(0,0,0,.2)!important;}
+#app-mount .guild-1EfMGQ.unread-qLkInr:before{border: 2px solid var(--boxcolor2);height: 100%;margin-top: -54%;left: -4%;width: 100%;border-radius: 10px;}
+#app-mount .guild-1EfMGQ.selected-ML3OIq:before{border: 2px solid var(--accentcolor);height: 100%;margin-top: -54%;left: -4%;width: 100%;border-radius: 10px;}
+#app-mount .guild-1EfMGQ.unread-qLkInr:before,.guild-1EfMGQ.selected-ML3OIq:before{background-color:transparent!important;}
+#app-mount .friendsOnline-_wi_fM {color:var(--textcolor)}
+#app-mount .bar-30k2ka {background: var(--accentcolor);text-align: left}
+/* guild add button */
+#app-mount .guildsAdd-21_IdK{color:var(--boxcolor2);background:rgba(0,0,0,.2);border:none;border-radius:10px}
+#app-mount .guildsAdd-21_IdK:hover{color:var(--accentcolor);}
 /* store and game libary */
 #app-mount .applicationStore-1pNvnv,#app-mount .gameLibrary-TTDw4Y,#app-mount .root-1bFE0x,#app-mount .row-1bU71H,#app-mount .card-NB61oR,#app-mount .bodySection-jqkkIP{background-color:var(--Transparency)}
 #app-mount .tileMedia-1q3guD,#app-mount .tileMedia-1q3guD:hover{background-color:var(--boxcolor);}
