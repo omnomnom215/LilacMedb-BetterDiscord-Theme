@@ -87,8 +87,7 @@ background: linear-gradient(to bottom, rgba(0,0,0,0) 5%,var(--Transparency) 100%
 #app-mount .mask-3OgeRz {-webkit-mask: none;mask: none;}
 
 #app-mount .image-33JSyf,#app-mount .avatar-large, #app-mount .avatar-profile, #app-mount .small-5Os1Bb,#app-mount .avatar-small,#app-mount .avatarHint-1qgaV3,
-#app-mount .title-3qD0b- .status, #app-mount .titleCall-_b9o8P .status, #app-mount .avatar-xlarge,#app-mount .avatar-xsmall, #app-mount .avatar-xxlarge,#app-mount .statusProfile-3ynqtt  {border-radius: var(--round) !important;}
-{border-radius:var(--round2) !important;}
+#app-mount .title-3qD0b- .status, #app-mount .titleCall-_b9o8P .status, #app-mount .avatar-xlarge,#app-mount .avatar-xsmall, #app-mount .avatar-xxlarge{border-radius: var(--round) !;}
 
 .header-2o-2hj:hover,.popout-open .header-2o-2hj{border-radius:15px;background-color:var(--boxcolor)}
 
