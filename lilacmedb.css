@@ -265,8 +265,8 @@ border-top: 2px solid var(--boxcolor);box-shadow: 0 0 4px 4px var(--boxcolor);}
 .title-3sZWYQ{margin-top:5px;}
 .theme-dark .user-settings-games .game,.theme-dark .installationPath-24giJj,.theme-dark .notificationsSound-27jFSh{box-shadow:none;-webkit-box-shadow:none;}
 /*home icon*/
-/* #app-mount .homeIcon-1FoKUJ {background: url('https://i.imgur.com/naHr38x.png');background-color: rgba(0,0,0,0)!important;color: rgba(0,0,0,0);background-position: center;background-size: cover;}
-.guilds-1q_RqH > .guild-1EfMGQ:first-child > .guildInner-3DSoA4{background:none !important;} */
+#app-mount .homeIcon-1FoKUJ {background: url('https://i.imgur.com/naHr38x.png');background-color: rgba(0,0,0,0)!important;color: rgba(0,0,0,0);background-position: center;background-size: cover;}
+.guilds-1q_RqH > .guild-1EfMGQ:first-child > .guildInner-3DSoA4{background:none !important;}
 
 /*emote menu*/
 .emojiPicker-3m1S-j{border:1px solid transparent !important;}
