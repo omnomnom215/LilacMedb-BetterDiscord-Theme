@@ -279,8 +279,8 @@ background: linear-gradient(to bottom, rgba(0,0,0,0) 5%,var(--Transparency) 100%
 .bda-dark .emoji-picker .category, .bda-dark .emojiPicker-3m1S-j .category-2U57w6,.emojiPicker-3m1S-j .stickyHeader-1SS0JU,.emojiPicker-3m1S-j .header-1nkwgG .search-bar,
     .emoji-picker .category,  .emojiPicker-3m1S-j .category-2U57w6,.emojiPicker-3m1S-j .stickyHeader-1SS0JU,
     .searchBar-2_Yu-C,  .emojiPicker-3m1S-j .header-1nkwgG .search-bar{background:transparent !important;}
-.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar,
-    #bda-qem-twitch-container .scroller::-webkit-scrollbar, #bda-qem-favourite-container .scroller::-webkit-scrollbar{display:none;}
+/*.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar,
+    #bda-qem-twitch-container .scroller::-webkit-scrollbar, #bda-qem-favourite-container .scroller::-webkit-scrollbar{display:none;}*/
 .bda-dark #bda-qem button,#bda-qem button{border-color:transparent !important;background:var(--Transparency);color:var(--accentcolor);border:none !important;box-shadow: var(--Transparency) 1px 0 0 0;}
 .bda-dark #bda-qem,#bda-qem{border:none !important;}
 .bda-dark #bda-qem button.active,.bda-dark #bda-qem button:hover,#bda-qem button.active,#bda-qem button:hover{background-color:var(--boxcolor2)}
