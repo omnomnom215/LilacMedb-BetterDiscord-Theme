@@ -175,7 +175,7 @@ background: linear-gradient(to bottom, rgba(0,0,0,0) 5%,var(--Transparency) 100%
 .inline-136HKr .pro-1T8RK7{color:var(--accentcolor)}
 
 /* search bar mini */
-.theme-dark .search-2oPWTC .searchBar-3dMhjb{background-color:var(--boxcolor)}
+.theme-dark .search-2oPWTC .searchBar-3dMhjb{background-color:var(--boxcolor);}
 .theme-dark .search-2oPWTC .searchBar-3dMhjb .public-DraftEditorPlaceholder-root{color:var(--accentcolor)}
 /*search menu*/
 #app-mount .searchPopout-1vUlP3,#app-mount .container-3ayLPN,#app-mount .focused-2bY0OD{background-color:var(--boxcolor);border:none !important;}
@@ -277,9 +277,8 @@ background: linear-gradient(to bottom, rgba(0,0,0,0) 5%,var(--Transparency) 100%
 .bda-dark #bda-qem,.bda-dark .emoji-picker, .bda-dark .emojiPicker-3m1S-j,.bda-dark #bda-qem-favourite-container, .bda-dark #bda-qem-twitch-container,
     #bda-qem, .emoji-picker,  .emojiPicker-3m1S-j, #bda-qem-favourite-container,
     #bda-qem-twitch-container,.searchBar-2_Yu-C.searchBarLight-1NxoDG .searchBarInner-1_Tg2R{background:var(--Transparency);}
-.bda-dark .emoji-picker .category, .bda-dark .emojiPicker-3m1S-j .category-2U57w6,.emojiPicker-3m1S-j .stickyHeader-1SS0JU,.emojiPicker-3m1S-j .header-1nkwgG .search-bar,
-    .emoji-picker .category,  .emojiPicker-3m1S-j .category-2U57w6,.emojiPicker-3m1S-j .stickyHeader-1SS0JU,
-    .searchBar-2_Yu-C,  .emojiPicker-3m1S-j .header-1nkwgG .search-bar{background:transparent !important;}
+.bda-dark .emoji-picker .category, .bda-dark .emojiPicker-3m1S-j .category-2U57w6, .emojiPicker-3m1S-j .stickyHeader-1SS0JU, .emojiPicker-3m1S-j .header-1nkwgG .search-bar,
+ .emoji-picker .category, .emojiPicker-3m1S-j .category-2U57w6, .emojiPicker-3m1S-j .stickyHeader-1SS0JU, .emojiPicker-3m1S-j .header-1nkwgG .search-bar,.searchBar-2_Yu-C.searchBarLight-1NxoDG{background:transparent !important;}
 /* .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar,
     #bda-qem-twitch-container .scroller::-webkit-scrollbar, #bda-qem-favourite-container .scroller::-webkit-scrollbar{display:none;} */
 .bda-dark #bda-qem button,#bda-qem button{border-color:transparent !important;background:var(--Transparency);color:var(--accentcolor);border:none !important;box-shadow: var(--Transparency) 1px 0 0 0;}
