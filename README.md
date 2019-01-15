@@ -10,4 +10,4 @@ this theme is not done, it's pretty messy even if you want it there is better el
 [link to artist profile](https://twitter.com/chuya_gyaku10)  
 [links to artist's pixiv](https://www.pixiv.net/member.php?id=12937740)  
 [paintrfiend](https://paintrfiend.tumblr.com/post/151650926277)
-[image](f0141638e86432bd2e71673cd4fc0f76e5365f27.jpg)
+
