@@ -154,11 +154,12 @@ background: linear-gradient(to bottom, rgba(0,0,0,.25) 5%,var(--Transparency) 10
 #app-mount .body-3iLsc4, #app-mount .footer-1fjuF6,#app-mount .note-3kmerW textarea:focus{background:var(--Transparency);}
 #app-mount .quickMessage-1yeL4E{background:var(--boxcolor);border-color:transparent;}
 #app-mount .quickMessage-1yeL4E::-webkit-input-placeholder,#app-mount .note-3kmerW textarea::-webkit-input-placeholder{color:var(--accentcolor)}
-.bodyTitle-Y0qMQz{color:var(--textcolor1);}
 #app-mount .note-3kmerW textarea{color:var(--textcolor)}
 #app-mount .footer-1fjuF6{border-color:transparent !important;}
 .userPopout-3XzG_A{box-shadow:none; -webkit-box-shadow:none;}
-.bodyTitle-Y0qMQz{color:var(--textcolor)}
+.bodyTitle-Y0qMQz,.theme-dark .listRow-hutiT_{color:var(--textcolor)}
+.theme-dark .listRow-hutiT_:hover{color:var(--textcolor);background:transparent;border:2px solid var(--boxcolor2);}
+.theme-dark .listRow-hutiT_{border:2px solid transparent;box-sizing:border-box;border-radius:5px;margin-left:5px;}
 .theme-dark .connectedAccount-36nQx7{border:2px solid var(--boxcolor);}
 .theme-dark .userInfoSection-2acyCx+.userInfoSection-2acyCx{border-color:var(--boxcolor);}
 /* profile roles */
@@ -307,19 +308,33 @@ background: linear-gradient(to bottom, rgba(0,0,0,.25) 5%,var(--Transparency) 10
 /* guild add button */
 #app-mount .guildsAdd-21_IdK{color:var(--boxcolor2);background:rgba(0,0,0,.2);border:none;border-radius:10px}
 #app-mount .guildsAdd-21_IdK:hover{color:var(--accentcolor);}
+/* friends list */
+.theme-dark .container-3gCOGc{background-color:var(--Transparency)}
+.theme-dark .friendsTable-133bsv .friendsRow-2yicud .friendsColumnName-1zBOKm{color:#fff}
+.theme-dark .friendsTable-133bsv .friendsTableHeader-32yE7d .friendsColumn-eVHFqJ,
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 .friendActivityText-2lmziy, .friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 .statusText-2F9zIF{color:var(--textcolor)}
+.theme-dark .friendsTable-133bsv .friendsTableHeader-32yE7d{border:transparent}
+.theme-dark .friendsTable-133bsv .friendsTableHeader-32yE7d .friendsColumnSeparator-3MqtMA,.theme-dark .separator-gCa7yv{background-color:transparent}
+#app-mount .friendsTable-133bsv .friendsRow-2yicud{border:2px solid transparent;}
+#app-mount .friendsTable-133bsv .friendsRow-2yicud:hover{background:var(--Transparency);border:2px solid var(--boxcolor2);box-sizing:border-box;}
+/* freinds hover buttons vc and video call buttons */
+.theme-dark .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9{background-color:var(--Transparency)}
 /* activity */
 .splashArt-3I5Qmp{opacity:.4}
 .article-3kb3qm,.carousel-2WxMes,.paginationItem-2lUq0s{background-color:var(--Transparency);}
 .paginationItem-2lUq0s:hover{background-color:transparent}
 .theme-dark .paginationItem-2lUq0s:after{background:transparent}
 .title-3gWYEg,.paginationTitle-3U5ymz{color:#fff;} .description-1CCuDd,.paginationSubtitle-12e1s6{color:var(--textcolor)}
-/* activity static elements and hovers */
+/* static elements and hovers */
 .theme-dark .card-7JP0BX{color:var(--textcolor);background-color:var(--Transparency);border:1px solid transparent;}
 .theme-dark .header-1RC2Wb{background:var(--Transparency);border-radius:5px;border:2px solid transparent;box-sizing:border-box;}
 .theme-dark .header-1RC2Wb:hover{background:var(--Transparency);border:2px solid var(--boxcolor2);}
-#app-mount .lookFilled-1Gx00P.hoverBrand-1_Fxlk.hasHover-3X1-zV:hover{background:var(--Transparency);border:2px solid var(--boxcolor2);}
+#app-mount .lookFilled-1Gx00P.hoverBrand-1_Fxlk.hasHover-3X1-zV:hover{color:var(--accentcolor);background:var(--Transparency);border:2px solid var(--boxcolor2);}
 .headerButtonColor-G7_f-V{color:var(--accentcolor);background-color:var(--Transparency);}
 .headerButtonColor-G7_f-V:hover{color:var(--accentcolor);background-color:var(--Transparency);border:2px solid var(--boxcolor2)}
+/* play button disabled */
+.disabledButtonColor-1aUKuC{color:var(--textcolor1);background-color:var(--Transparency)}
+
 .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6{color:var(--textcolor);background-color:var(--Transparency);}
 .theme-dark .body-SKIE6r{background-color:transparent;}
 .theme-dark .lookFilled-1Gx00P.hoverGreen-1gjdJc.hasHover-3X1-zV{border:2px solid transparent;}
@@ -327,8 +342,19 @@ background: linear-gradient(to bottom, rgba(0,0,0,.25) 5%,var(--Transparency) 10
 
 /* random check box tagent */
 .checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span{color:var(--accentcolor);background-color:var(--Transparency);border-color:var(--boxcolor2)}
+/* green button in libary */
+.lookFilled-1Gx00P.colorGreen-29iAKY{color:var(--accentcolor);background-color:var(--Transparency);border:2px solid transparent;}
+.lookFilled-1Gx00P.colorGreen-29iAKY:hover{background:var(--Transparency);border:2px solid var(--boxcolor2);}
+/* game popout */
+.theme-dark .gamePreview-9weYR2{background-color:var(--Transparency);box-shadow:none;-webkit-box-shadow:none;border:2px solid var(--boxcolor2);}
+.theme-dark .body-1SVoBw{background-color:var(--Transparency);}
+.description-1kmW86,.theme-dark .publisher-2ZxPEd{color:var(--textcolor);border-color:transparent;}
+.title-1oZsbs{color:#fff}
+.description-13oVu5{color:var(--textcolor)}
+.subtitle-rPfx7J{color:var(--textcolor1)}
+.info-P9dFwH,.news-2KwXHF,.news-2GDtLJ{background-color:transparent;}
 /* store and game libary */
-#app-mount .applicationStore-1pNvnv,#app-mount .gameLibrary-TTDw4Y,#app-mount .root-1bFE0x,#app-mount .row-1bU71H,#app-mount .card-NB61oR,#app-mount .bodySection-jqkkIP{background-color:var(--Transparency)}
+#app-mount .applicationStore-1pNvnv,#app-mount .gameLibrary-TTDw4Y,#app-mount .root-1bFE0x,#app-mount .row-1bU71H,#app-mount .card-NB61oR,#app-mount .bodySection-jqkkIP,.theme-dark .dockItem-2kQDqg:hover{background-color:var(--Transparency)}
     #app-mount .tileMedia-1q3guD,#app-mount .tileMedia-1q3guD:hover{background-color:var(--boxcolor);}
     #app-mount .applicationMedia-2KCz_t,#app-mount .itemBackground-1jfD8p,#app-mount .tileMedia-1q3guD,#app-mount .root-1bFE0x,#app-mount .item-3V15ea,#app-mount .card-NB61oR{border-radius:10px !important;}
     .splash-3K76bN, .splashPlaceholder-1ev-9c,.section-foaVwT:first-child{border-radius:10px 10px 0 0}
