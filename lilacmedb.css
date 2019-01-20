@@ -313,7 +313,7 @@ background: linear-gradient(to bottom, rgba(0,0,0,.25) 5%,var(--Transparency) 10
 .paginationItem-2lUq0s:hover{background-color:transparent}
 .theme-dark .paginationItem-2lUq0s:after{background:transparent}
 .title-3gWYEg,.paginationTitle-3U5ymz{color:#fff;} .description-1CCuDd,.paginationSubtitle-12e1s6{color:var(--textcolor)}
-/* static elements and hovers */
+/* activity static elements and hovers */
 .theme-dark .card-7JP0BX{color:var(--textcolor);background-color:var(--Transparency);border:1px solid transparent;}
 .theme-dark .header-1RC2Wb{background:var(--Transparency);border-radius:5px;border:2px solid transparent;box-sizing:border-box;}
 .theme-dark .header-1RC2Wb:hover{background:var(--Transparency);border:2px solid var(--boxcolor2);}
