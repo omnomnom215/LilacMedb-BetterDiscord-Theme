@@ -59,6 +59,7 @@
 background: linear-gradient(to bottom, rgba(0,0,0,.25) 5%,var(--Transparency) 100%);border-radius:0 0 10px 10px;}
 #app-mount .headerCell-3L6rFG,#app-mount .headerCell-3L6rFG:hover:not(.headerCellSorted-3a5AzJ){color:var(--textcolor1)}
 #app-mount .headerCellSorted-3a5AzJ{color:#fff;}
+.theme-dark .icon-1IKq3C, .theme-dark .textCell-1aBIUP{color:var(--textcolor)}
 /*here is where it says typing...*/
 #app-mount .typing-2GQL18{background: transparent !important;}
  /*around the text box*/
@@ -85,13 +86,13 @@ background: linear-gradient(to bottom, rgba(0,0,0,.25) 5%,var(--Transparency) 10
 /* Roundness */
 #app-mount .mask-3OgeRz {-webkit-mask: none;mask: none;}
 
-#app-mount .image-33JSyf,#app-mount .avatar-large, #app-mount .avatar-profile, #app-mount .small-5Os1Bb,#app-mount .avatar-small,#app-mount .avatarHint-1qgaV3,
-#app-mount .title-3qD0b- .status, #app-mount .titleCall-_b9o8P .status, #app-mount .avatar-xlarge,#app-mount .avatar-xsmall, #app-mount .avatar-xxlarge{border-radius: var(--round);}
+.image-33JSyf,.status-oxiHuE,.gameIcon-_0rmMm{border-radius:var(--round);}
 
+/* whats this? */
 .header-2o-2hj:hover,.popout-open .header-2o-2hj{border-radius:15px;background-color:var(--boxcolor)}
 
 /*search bar*/
-#app-mount .search .searchBar-2_Yu-C, #app-mount .search .search-bar,.theme-dark .libraryFilterInput-3JzqZD{background-color: var(--boxcolor);}
+#app-mount .search .searchBar-2_Yu-C, #app-mount .search .search-bar,.theme-dark .libraryFilterInput-3JzqZD,.searchBar-2_Yu-C{background-color: var(--boxcolor);}
 .search-bar .search-bar-inner,.search-bar{border:none;background:rgba(0,0,0,0);}
 .search-bar input::-webkit-input-placeholder,#app-mount .search .search-bar .public-DraftEditorPlaceholder-root{color:var(--accentcolor);font-size:1.1em !important;}
 /*channel select*/
@@ -137,6 +138,8 @@ background: linear-gradient(to bottom, rgba(0,0,0,.25) 5%,var(--Transparency) 10
 #app-mount .defaultColor-1_ajX0{color:#fff;}
 #app-mount .primary-jw0I4K,#app-mount .protip-YaFfgO{color:var(--textcolor);}
 #app-mount .close-18n9bP{color:var(--textcolor);}
+/* invite modal */
+.theme-dark .inviteRow-2L02ae:hover{background-color:var(--boxcolor)}
 /* upload modal */
 .uploadModal-2ifh8j,.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j{background-color:var(--boxcolor);border:2px solid var(--accentcolor);}
 .uploadModal-2ifh8j .footer-3mqk7D{background-color:transparent;}
@@ -162,7 +165,15 @@ background: linear-gradient(to bottom, rgba(0,0,0,.25) 5%,var(--Transparency) 10
 .theme-dark .listRow-hutiT_{border:2px solid transparent;box-sizing:border-box;border-radius:5px;margin-left:5px;}
 .theme-dark .connectedAccount-36nQx7{border:2px solid var(--boxcolor);}
 .theme-dark .userInfoSection-2acyCx+.userInfoSection-2acyCx{border-color:var(--boxcolor);}
-
+/* quick switcher modal */
+/* i never use this it is a waste of time to theme your welcome good for nothing shits */
+.theme-dark .input-2VB9rf, .theme-dark .input-2VB9rf:focus,.theme-dark .quickswitcher-3JagVE{box-shadow:none;-webkit-box-shadow:none;}
+.theme-dark .quickswitcher-3JagVE{color:var(--accentcolor);background-color:var(--Transparency);border:2px solid var(--boxcolor)}
+.theme-dark .input-2VB9rf{color:var(--accentcolor);background-color:var(--boxcolor)}
+.theme-dark .contentDefault-16dKSY,.theme-dark .icon-30q1Or{color:#fff;}
+.theme-dark .resultFocused-3aIoYe{background-color:var(--Transparency);}
+.theme-dark .header-13MUnb{color:#fff}
+#app-mount .contentUnread-3gTHvA .note-S--UP5,.theme-dark .contentDefault-16dKSY .note-S--UP5{color:var(--textcolor)}
 /* header text */
 .username-3gJmXY,.discriminator-xUhQkU,#app-mount .activityProfile-2bJRaP .headerText-1HLrL7{color:#fff;text-shadow:2px 2px 1px #000}
 #app-mount .joinedAtDate.textRow-19NEd_, .userPopout-3XzG_A .headerText-2sdzFM .nameTag-m8r81H, #app-mount .creationDate{color:#fff;text-shadow:2px 2px 1px #000;background:linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(0,0,0,0.4) 15%,rgba(0,0,0,0.4) 85%,rgba(0,0,0,0) 100%);}
@@ -245,9 +256,8 @@ background: linear-gradient(to bottom, rgba(0,0,0,.25) 5%,var(--Transparency) 10
 #app-mount .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI{color:var(--accentcolor);}
 #app-mount .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:after, #app-mount .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:before{border-color:var(--accentcolor)}
 /*avatars & status*/
-#app-mount .status-oxiHuE{border-radius: 20%}
 .maskProfile-1ObLFT,.mask-3OgeRz {-webkit-mask: none;mask: none;}
-.image-33JSyf, .wrapper-2F3Zv8{border-radius: 20%;}
+
 
 /*voicechat*/
 .avatarSpeaking-1wJCNq, .avatarDefault-35WC3R, .avatarContainer-72bSfM {border-color: transparent !important;box-shadow: none !important;z-index: 10;}
@@ -313,6 +323,10 @@ background: linear-gradient(to bottom, rgba(0,0,0,.25) 5%,var(--Transparency) 10
 /* guild add button */
 #app-mount .guildsAdd-21_IdK{color:var(--boxcolor2);background:rgba(0,0,0,.2);border:none;border-radius:10px}
 #app-mount .guildsAdd-21_IdK:hover{color:var(--accentcolor);}
+/* guild invite modal */
+.theme-dark .wrapper-35wsBm,.theme-dark .content-35aVm0{background:var(--Transparency);border:2px solid var(--accentcolor)}
+.guildNameExpired-2Hp80V{color:var(--accentcolor)}
+.theme-dark .guildDetail-1nRKNE{color:var(--textcolor)}
 /* friends list */
 .theme-dark .container-3gCOGc{background-color:var(--Transparency)}
 .theme-dark .friendsTable-133bsv .friendsRow-2yicud .friendsColumnName-1zBOKm{color:#fff}
@@ -343,7 +357,7 @@ background: linear-gradient(to bottom, rgba(0,0,0,.25) 5%,var(--Transparency) 10
 .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6{color:var(--textcolor);background-color:var(--Transparency);}
 .theme-dark .body-SKIE6r{background-color:transparent;}
 .theme-dark .lookFilled-1Gx00P.hoverGreen-1gjdJc.hasHover-3X1-zV{border:2px solid transparent;}
-.theme-dark .lookFilled-1Gx00P.hoverGreen-1gjdJc.hasHover-3X1-zV:hover{color:var(--accentcolor2);background-color:var(--Transparency);border-color:var(--accentcolor2)}
+.theme-dark .lookFilled-1Gx00P.hoverGreen-1gjdJc.hasHover-3X1-zV:hover{color:var(--accentcolor);background-color:var(--Transparency);border-color:var(--boxcolor2);}
 
 /* random check box tagent */
 .checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span{color:var(--accentcolor);background-color:var(--Transparency);border-color:var(--boxcolor2)}
@@ -386,7 +400,8 @@ background: linear-gradient(to bottom, rgba(0,0,0,.25) 5%,var(--Transparency) 10
 
     #app-mount .premium-39U29H{background:var(--Transparency)}
     #app-mount .footer-3oZnEF{border-radius:0 0 20px 20px}
-
+    .theme-dark .requirementKey-14DT2D{color:#fff}
+    .theme-dark .requirements-dEriwm{color:var(--textcolor)}
     #app-mount .gameUpdates-2GPqBU{background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0.48) 100%);
         background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0.20) 100%)!important;}
     #app-mount .topPill-30KHOu .itemSelected-1qLhcL{color:var(--accentcolor);background-color:var(--Transparency);border:1px solid var(--boxcolor2)}
@@ -394,11 +409,19 @@ background: linear-gradient(to bottom, rgba(0,0,0,.25) 5%,var(--Transparency) 10
     .theme-dark .topPill-30KHOu .item-PXvHYJ:hover:not(.itemSelected-1qLhcL){background-color:var(--Transparency)}
 /* misc text color adjustments */
 .theme-dark .keyboardShortcutList-13cQ-8 .keybindGroup--6Qp-w .keybindDescription-2RDbC2,.theme-dark .item-30Gz8g,.theme-dark .bda-slist .bda-description{color:var(--textcolor)}
-.theme-dark .h5-18_1nd{color:var(--accentcolor)}
+.theme-dark .h5-18_1nd{color: var(--accentcolor);}
 /* buttons */
-#app-mount .jumpButton-3DTcS_{color:var(--accentcolor);background-color:var(--boxcolor2)}
-#app-mount .jumpButton-3DTcS_:hover{background-color:var(--accentcolor2)}
+.theme-dark .keybindShortcut-1BD6Z1 span{color:var(--accentcolor);background-color:var(--Transparency);border:1px solid var(--boxcolor2);
+box-shadow: inset 0 -4px 0 var(--boxcolor2);}
+.lookInverted-2D7oAl.colorBrand-3pXr91{color:var(--accentcolor);background-color:var(--Transparency);}
+#app-mount .jumpButton-3DTcS_,#app-mount .jumpButton-Ia2hRJ{color:var(--accentcolor);background-color:var(--Transparency)}
+#app-mount .jumpButton-3DTcS_:hover,#app-mount .jumpButton-Ia2hRJ:hover{background-color:var(--accentcolor2)}
 #app-mount .jumpToPresentBar-9P20AM{background:var(--Transparency);border-radius:5px;padding:1px;border:2px solid var(--boxcolor)}
 .bf-toolbar .bf-arrow{margin-right:8px;}
 .jumpToPresentBar-9P20AM button:last-child{margin-right:8px;color:var(--textcolor)}
-
+.inviteRowButton-3opYo2.lookOutlined-3sRXeN.colorGreen-29iAKY{color:var(--accentcolor2);border:2px solid transparent;background-color:var(--Transparency)}
+.inviteRowButton-3opYo2.lookOutlined-3sRXeN.colorGreen-29iAKY:hover{color:var(--accentcolor2);border:2px solid var(--boxcolor);background-color:var(--Transparency)}
+.inviteRowButton-3opYo2.lookFilled-1Gx00P.colorGreen-29iAKY{color:var(--accentcolor);border:2px solid var(--boxcolor);background-color:var(--Transparency)}
+.inviteRowButton-3opYo2.lookFilled-1Gx00P.colorGreen-29iAKY:hover{color:var(--accentcolor);border:2px solid var(--boxcolor);background-color:var(--Transparency)}
+#app-mount .modal-1k91nT{background-color:var(--Transparency);border:1px solid var(--boxcolor2)}
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:active, .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover{background-color:var(--boxcolor2)}
