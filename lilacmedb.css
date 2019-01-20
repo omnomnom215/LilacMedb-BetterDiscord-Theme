@@ -162,6 +162,11 @@ background: linear-gradient(to bottom, rgba(0,0,0,.25) 5%,var(--Transparency) 10
 .theme-dark .listRow-hutiT_{border:2px solid transparent;box-sizing:border-box;border-radius:5px;margin-left:5px;}
 .theme-dark .connectedAccount-36nQx7{border:2px solid var(--boxcolor);}
 .theme-dark .userInfoSection-2acyCx+.userInfoSection-2acyCx{border-color:var(--boxcolor);}
+
+/* header text */
+.username-3gJmXY,.discriminator-xUhQkU,#app-mount .activityProfile-2bJRaP .headerText-1HLrL7{color:#fff;text-shadow:2px 2px 1px #000}
+#app-mount .joinedAtDate.textRow-19NEd_, .userPopout-3XzG_A .headerText-2sdzFM .nameTag-m8r81H, #app-mount .creationDate{color:#fff;text-shadow:2px 2px 1px #000;background:linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(0,0,0,0.4) 15%,rgba(0,0,0,0.4) 85%,rgba(0,0,0,0) 100%);}
+.ellipsis-1XUmPN,#app-mount .activityProfile-2bJRaP .details-38sfDr{color:var(--textcolor);text-shadow:2px 2px 1px #000}
 /* profile roles */
 .roleCircle-3xAZ1j{border-radius:var(--round)}
 .role-2irmRk{border:2px solid; border-radius:6px;}
