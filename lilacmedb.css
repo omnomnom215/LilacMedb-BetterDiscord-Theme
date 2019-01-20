@@ -307,6 +307,26 @@ background: linear-gradient(to bottom, rgba(0,0,0,.25) 5%,var(--Transparency) 10
 /* guild add button */
 #app-mount .guildsAdd-21_IdK{color:var(--boxcolor2);background:rgba(0,0,0,.2);border:none;border-radius:10px}
 #app-mount .guildsAdd-21_IdK:hover{color:var(--accentcolor);}
+/* activity */
+.splashArt-3I5Qmp{opacity:.4}
+.article-3kb3qm,.carousel-2WxMes,.paginationItem-2lUq0s{background-color:var(--Transparency);}
+.paginationItem-2lUq0s:hover{background-color:transparent}
+.theme-dark .paginationItem-2lUq0s:after{background:transparent}
+.title-3gWYEg,.paginationTitle-3U5ymz{color:#fff;} .description-1CCuDd,.paginationSubtitle-12e1s6{color:var(--textcolor)}
+/* static elements and hovers */
+.theme-dark .card-7JP0BX{color:var(--textcolor);background-color:var(--Transparency);border:1px solid transparent;}
+.theme-dark .header-1RC2Wb{background:var(--Transparency);border-radius:5px;border:2px solid transparent;box-sizing:border-box;}
+.theme-dark .header-1RC2Wb:hover{background:var(--Transparency);border:2px solid var(--boxcolor2);}
+#app-mount .lookFilled-1Gx00P.hoverBrand-1_Fxlk.hasHover-3X1-zV:hover{background:var(--Transparency);border:2px solid var(--boxcolor2);}
+.headerButtonColor-G7_f-V{color:var(--accentcolor);background-color:var(--Transparency);}
+.headerButtonColor-G7_f-V:hover{color:var(--accentcolor);background-color:var(--Transparency);border:2px solid var(--boxcolor2)}
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6{color:var(--textcolor);background-color:var(--Transparency);}
+.theme-dark .body-SKIE6r{background-color:transparent;}
+.theme-dark .lookFilled-1Gx00P.hoverGreen-1gjdJc.hasHover-3X1-zV{border:2px solid transparent;}
+.theme-dark .lookFilled-1Gx00P.hoverGreen-1gjdJc.hasHover-3X1-zV:hover{color:var(--accentcolor2);background-color:var(--Transparency);border-color:var(--accentcolor2)}
+
+/* random check box tagent */
+.checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span{color:var(--accentcolor);background-color:var(--Transparency);border-color:var(--boxcolor2)}
 /* store and game libary */
 #app-mount .applicationStore-1pNvnv,#app-mount .gameLibrary-TTDw4Y,#app-mount .root-1bFE0x,#app-mount .row-1bU71H,#app-mount .card-NB61oR,#app-mount .bodySection-jqkkIP{background-color:var(--Transparency)}
     #app-mount .tileMedia-1q3guD,#app-mount .tileMedia-1q3guD:hover{background-color:var(--boxcolor);}
@@ -350,3 +370,4 @@ background: linear-gradient(to bottom, rgba(0,0,0,.25) 5%,var(--Transparency) 10
 #app-mount .jumpToPresentBar-9P20AM{background:var(--Transparency);border-radius:5px;padding:1px;border:2px solid var(--boxcolor)}
 .bf-toolbar .bf-arrow{margin-right:8px;}
 .jumpToPresentBar-9P20AM button:last-child{margin-right:8px;color:var(--textcolor)}
+
