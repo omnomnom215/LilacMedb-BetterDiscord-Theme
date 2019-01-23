@@ -224,7 +224,7 @@
 /*mentions*/
 .wrapper-232cHJ,.mention-1f5kbO{background-color:var(--boxcolor);text-shadow:0 0 1px #000;}
 .wrapper-232cHJ:hover,.mention-1f5kbO:hover{background-color:var(--boxcolor);}
-#app-mount .wrapper-3WhCwL{background-color:var(--boxcolor);color: #777;text-shadow:0px 0px 2px var(--boxcolor);border-radius: 5%;}
+#app-mount .wrapper-3WhCwL{background-color:var(--boxcolor);color: var(--accentcolor);text-shadow:0px 0px 2px var(--boxcolor);border-radius: 5%;}
 #app-mount .isMentioned-N-h9aa {background: var(--boxcolor); margin-left:8px;}
 .isMentionedCozy-3isp7y:after{background: transparent;border-left:6px solid var(--accentcolor);}
 .unreadBar-17qm9c{background:var(--boxcolor)}
