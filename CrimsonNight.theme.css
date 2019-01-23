@@ -14,7 +14,7 @@
 	--boxcolor: rgba(51, 11, 79,0.3); /*second accent color with transparency*/
 	--boxcolor2: rgba(255, 12, 77, .4); /*primary accent color with transparency*/
 	--accentcolor: #ff0c4d; /*primary accent color*/
-	--accentcolor2:#471259; /*secondary accent color this color isn't used a lot, box color will see more use you can probably ignore this for the most part*/
+	--accentcolor2: #811a99; /*secondary accent color this color isn't used a lot, box color will see more use. this is mostly only for the channels*/
 	--Round0: 10px; /*round variable in pixel value  changes the size of avatars and other small details 50% = round 0% = square*/
 	--Round1:10%; /*round variable in % value changes the size of avatars and other small details*/
 	--font: 'nunito','Comfortaa'; /*this controls all fonts, you can import google or use system font, as long as you install and then restart discord to apply them*/
