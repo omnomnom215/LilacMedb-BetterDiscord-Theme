@@ -11,7 +11,7 @@
 	left: -2px!important;
 	border-radius:var(--Round1)!important;
 	width:100%!important;
-	background-color:transparent!important;
+	background-color:transparent;
 	z-index:unset !important; /*reset from vsg*/
 }
 .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr:before {
@@ -21,6 +21,7 @@
     left: -2px!important;
     width: 100%!important;
     border-radius: 10px!important;
+	background-color:var(--boxcolor2)!important;
 }
 
 .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq:before {
@@ -30,4 +31,5 @@
     left: -2px !important;
     width: 100%!important;
     border-radius: 10px!important;
+    background-color:var(--accentcolor)!important;
 }
