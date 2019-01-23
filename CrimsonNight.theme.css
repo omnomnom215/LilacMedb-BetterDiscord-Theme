@@ -10,16 +10,16 @@
 :root {
 	--wordmark:"Crimson-Night by moth#0243"; /*you can free change the wordmark, but i ask you to not claim the theme as you own, i still own the imports they are the theme not this file*/
 	--background:url(https://omnomnom215.github.io/LilacMedb-BetterDiscord-Theme/be4e4d2a3a3008d6b00dde56830efe37-darker.png);  /*Wallpaper. gifs will work but won't be animated*/
+	--homeiconbg:url('');
 	--Transparency: hsla(0, 0%, 0%, 0.3); /*background darkness*/
 	--boxcolor: rgba(51, 11, 79,0.3); /*second accent color with transparency*/
 	--boxcolor2: rgba(255, 12, 77, .4); /*primary accent color with transparency*/
 	--accentcolor: #ff0c4d; /*primary accent color*/
-	--accentcolor2: #811a99; /*secondary accent color this color isn't used a lot, box color will see more use. this is mostly only for the channels*/
+	--accentcolor2:#811a99; /*secondary accent color this color isn't used a lot, box color will see more use you can probably ignore this for the most part*/
 	--Round0: 10px; /*round variable in pixel value  changes the size of avatars and other small details 50% = round 0% = square*/
-	--Round1:10%; /*round variable in % value changes the size of avatars and other small details*/
+	--Round1: 10%; /*round variable in % value changes the size of avatars and other small details*/
 	--font: 'nunito','Comfortaa'; /*this controls all fonts, you can import google or use system font, as long as you install and then restart discord to apply them*/
 	--textshadow: 0px 0px 2px rgba(0,0,0,0.8); /* the optional text shadow on everything, this is to help make text more readable.*/
-	--textcolor: rgba(255,255,255,0.8)!important; /*the main text color, a lot of elements are #fff i need to update those expect another variable soon*/
+	--textcolor: rgba(255,255,255,0.8); /*the main text color, a lot of elements are #fff i need to update those expect another variable soon*/
 	--textcolor1: rgba(255,255,255,0.4); /*this is a darker/lighter more transparent verison of textcolor for sub text*/
 }
-
