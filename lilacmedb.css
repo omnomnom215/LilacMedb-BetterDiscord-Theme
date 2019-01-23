@@ -86,7 +86,7 @@ background: linear-gradient(to bottom, rgba(0,0,0,.25) 5%,var(--Transparency) 10
 /* Roundness */
 #app-mount .mask-3OgeRz {-webkit-mask: none;mask: none;}
 
-.image-33JSyf,.status-oxiHuE,.gameIcon-_0rmMm,.avatarHint-1qgaV3{border-radius:var(--Round0);}
+.image-33JSyf,.status-oxiHuE,.gameIcon-_0rmMm,.avatarHint-1qgaV3{border-radius:var(--Round1);}
 
 /* whats this? */
 .header-2o-2hj:hover,.popout-open .header-2o-2hj{border-radius:15px;background-color:var(--boxcolor)}
@@ -295,7 +295,8 @@ background: linear-gradient(to bottom, rgba(0,0,0,.25) 5%,var(--Transparency) 10
 .title-3sZWYQ{margin-top:5px;}
 .theme-dark .user-settings-games .game,.theme-dark .installationPath-24giJj,.theme-dark .notificationsSound-27jFSh{box-shadow:none;-webkit-box-shadow:none;}
 /*home icon*/
-#app-mount .homeIcon-1FoKUJ {background: url('https://i.imgur.com/naHr38x.png');background-color: rgba(0,0,0,0)!important;color: rgba(0,0,0,0);background-position: center;background-size: cover;}
+:root{--homeiconbg1:url('https://i.imgur.com/naHr38x.png')}
+#app-mount .homeIcon-1FoKUJ {background: var(--homeiconbg), var(--homeiconbg1);background-color: rgba(0,0,0,0)!important;color: rgba(0,0,0,0);background-position: center;background-size: cover;}
 .guilds-1q_RqH > .guild-1EfMGQ:first-child > .guildInner-3DSoA4{background:none !important;}
 
 /*emote menu*/
