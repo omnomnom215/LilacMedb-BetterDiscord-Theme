@@ -19,7 +19,7 @@
 	--Round1:10%; /*round variable in % value changes the size of avatars and other small details*/
 	--font: 'nunito','Comfortaa'; /*this controls all fonts, you can import google or use system font, as long as you install and then restart discord to apply them*/
 	--textshadow: 0px 0px 2px rgba(0,0,0,0.8); /* the optional text shadow on everything, this is to help make text more readable.*/
-	--textcolor: rgba(255,255,255,0.8); /*the main text color, a lot of elements are #fff i need to update those expect another variable soon*/
+	--textcolor: rgba(255,255,255,0.8)!important; /*the main text color, a lot of elements are #fff i need to update those expect another variable soon*/
 	--textcolor1: rgba(255,255,255,0.4); /*this is a darker/lighter more transparent verison of textcolor for sub text*/
 }
 
