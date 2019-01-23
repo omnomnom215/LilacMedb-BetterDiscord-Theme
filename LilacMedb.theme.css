@@ -9,10 +9,10 @@
 	--background: url(https://i.imgur.com/rbTInWz.jpg);  /*Wallpaper. gifs will work but won't be animated*/
 	--homeiconbg: url('');
 	--Transparency: hsla(0, 0%, 0%, 0.3); /*background darkness last number (alpha) 0 is clear 1 is opaque*/
-    --boxcolor: rgba(243, 170, 255,.4);/*second accent color with transparency*/
-    --boxcolor2: rgba(126, 46, 184,.6);/*primary accent color with transparency*/
-    --accentcolor: #f1e1ff; /*other accent color #7e2eb8*/
-    --accentcolor2: #7e2eb8; /*secondary accent color this color isn't used a lot, box color will see more use you can probably ignore this for the most part*/
+	--boxcolor: rgba(243, 170, 255,.4);/*second accent color with transparency*/
+	--boxcolor2: rgba(126, 46, 184,.6);/*primary accent color with transparency*/
+	--accentcolor: #f1e1ff; /*other accent color #7e2eb8*/
+	--accentcolor2: #7e2eb8; /*secondary accent color this color isn't used a lot, box color will see more use you can probably ignore this for the most part*/
 	--Round0: 20px; /*round variable in pixel value  changes the size of avatars and other small details 50% = round 0% = square*/
 	--Round1: 20%; /*round variable in % value changes the size of avatars and other small details*/
 	--font: 'mandali'; /*this controls all fonts, you can import google or use system font, as long as you install and then restart discord to apply them*/
