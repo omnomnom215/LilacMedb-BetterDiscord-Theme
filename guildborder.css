@@ -1,8 +1,8 @@
 /* minor credits to devilbro, satoru and a few others for helping me come up with the wrong way to make borders on the guilds section */
-:root{--DefRoundGuildBorder:50%;}
+
 
 .guild-1EfMGQ .guildInner-3DSoA4{
-    border-radius:calc (var(--Round0) - 2px) , calc (var(--DefRoundGuildBorder) - 2px) !important;
+    border-radius: calc(var(--Round1) - 2px)!important;
     background-color:rgba(0,0,0,.2)!important;
 }
 
@@ -21,7 +21,7 @@
     margin-top: -27px !important;
     left: -2px!important;
     width: 100%!important;
-    border-radius: var(--Round1) , var(--DefRoundGuildBorder)!important;
+    border-radius: var(--Round1)!important;
 	background-color:var(--boxcolor2)!important;
 }
 
@@ -31,6 +31,6 @@
     margin-top: -27px !important;
     left: -2px !important;
     width: 100%!important;
-    border-radius: var(--Round1) , var(--DefRoundGuildBorder)!important;
+    border-radius: var(--Round1);
     background-color:var(--accentcolor)!important;
 }
