@@ -3,7 +3,7 @@
 here is a sreenshot of lilacmedb. ![Image](image.png)
 it's 95% complete missing icons and other small details which will be worked later on.
 
-[preview of crimson-night](previewCrimsonNight.PNG)
+![Image](previewCrimsonNight.PNG)
 sharing the same code of lilacmedb it is an alternative verison i personally like more. purple and crimson are my favorite colors.
 
 ### credits to the artist for the great images : 
