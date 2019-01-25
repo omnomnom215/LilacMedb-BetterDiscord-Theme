@@ -1,6 +1,6 @@
 ## welcome to BLackMoth27's theme
 
-there isn't a lot here don't worry about ![Image](https://i.imgur.com/JivNxKh.png)
+there isn't a lot here don't worry about ![Image](image.png)
 
 this theme is not done, it's pretty messy even if you want it there is better elsewhere for now.
 
