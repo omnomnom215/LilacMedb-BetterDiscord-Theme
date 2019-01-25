@@ -1,8 +1,7 @@
 ## welcome to BLackMoth27's theme
 
-there isn't a lot here don't worry about ![Image](image.png)
-
-this theme is not done, it's pretty messy even if you want it there is better elsewhere for now.
+here is a sreenshot of lilacmedb. ![Image](image.png)
+it's 95% complete missing icons and other small details which will be worked later on.
 
 ### credits to the artist for the great image : 
 
