@@ -29,9 +29,6 @@
     #app-mount .guildsWrapper-5TJh6A, #friends,#app-mount #friends,.theme-dark .root-1BQpZw,#app-mount .title-3qD0b-,.titleWrapper-1l0xT9{background: var(--Transparency);}
 /*member icon color*/
 #app-mount .member-3W1lQa:hover .content-OzHfo4, .member-3W1lQa.popout-open .content-OzHfo4, .member-3W1lQa .popout-open .content-OzHfo4{background:transparent; border-left:4px solid var(--accentcolor)}
-/*member icon zoom on hover*/
-.member-3W1lQa{transition: transform 0.3s;}
-.member-3W1lQa:hover{transform: scale(1.05);}
 /* hide dividers */ 
 .guildSeparator-1X4GQ1,.theme-dark .divider-3573oO,.side-8zPYf6 .separator-gCa7yv,.theme-dark #bd-settings-sidebar .ui-tab-bar-separator{display:none;}
 /* no idea where this stuff goes currently */
@@ -72,7 +69,14 @@
 #app-mount .messageGroupBlocked-3wrQQX.revealed-1_RKsf{background-color: var(--boxcolor)!important;border:none;}
 
 /*channel zoom on hover*/
-.contentHoveredText-2D9B-x:hover, .contentHoveredVoice-3p_NEO:hover{transform: scale(1.05);} 
+/* .contentHoveredText-2D9B-x:hover, .contentHoveredVoice-3p_NEO:hover{transform: scale(1.05);} .contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM,.contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO{*transition: transform 0.3s;} */
+
+/*member icon zoom on hover*/
+/* .member-3W1lQa{transition: transform 0.3s;}
+.member-3W1lQa:hover{transform: scale(1.05);} */
+
+
+/*username slightly transparent*/
 #app-mount .username-_4ZSMR{opacity: .9;}
 
 /* Roundness */
@@ -88,7 +92,7 @@
 .unread-1Dp-OI{display:none;}
 .iconHovered-2L3-fB, .iconHoveredCollapsed-3caIIZ, .nameHovered-1gxhWH, .nameHoveredCollapsed-2orEWB{color:var(--accentcolor)}
 .channel-2QD9_O.selected-1HYmZZ a,.channel-2QD9_O:hover a {background-color:var(--boxcolor)}
-.contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM,.contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO{background: transparent;transition: transform 0.3s;
+.contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM,.contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO{background: transparent;
     border-radius: 3px;border-left: 5px solid var(--boxcolor2);box-sizing:border-box;}
 .iconCollapsed-3hFp_8, .iconDefault-3Gr8d2, .nameCollapsed-34uFWo, .nameDefault-2DI02H{color:var(--accentcolor2);}
 .nameConnectedText-3CzNQn, .nameConnectedVoice-MHUX5F, .nameDefaultText-24KCy5, .nameDefaultVoice-3WUH7s, .nameLockedText-3pqQcL, .nameLockedVoice-26MhB1{color:var(--accentcolor2);}
