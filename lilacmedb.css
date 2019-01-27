@@ -14,8 +14,9 @@
 /*basic main transparent elements*/
 /*background image*/
 #app-mount {background: var(--background) center top/cover no-repeat;animation: none;} 
+#app-mount .layers-3iHuyZ{background:var(--bgtransparency)}
 /*back ground stuff*/ 
-.container-2lgZY8, #app-mount .content-yTz4x3, #app-mount .chat-3bRxxu, .container-2Thooq, .container-PNkimc, #app-mount .layer-3QrUeG, #app-mount .layers-3iHuyZ, #app-mount .typing-2GQL18, .video-1FfuMD
+.container-2lgZY8, #app-mount .content-yTz4x3, #app-mount .chat-3bRxxu, .container-2Thooq, .container-PNkimc, #app-mount .layer-3QrUeG, #app-mount .typing-2GQL18, .video-1FfuMD
     {background: rgba(0, 0, 0, 0) !important;}
 .theme-dark .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug{background: rgba(0,0,0,.0)}
 #app-mount .headerBar-UHpsPw{background: rgba(0,0,0,.25);border-radius:5px;}
@@ -24,9 +25,10 @@
 /* box-shadow and webkit box shadow removal */
 #app-mount .headerBar-UHpsPw,#app-mount .header-ykumBX,#app-mount .messagesPopoutWrap-1MQ1bW,#app-mount .modal-3HD5ck,.searchBar-6Kv8R2,#app-mount .menu-Sp6bN1,
     .popout-3sVMXz,.theme-dark .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug{box-shadow:none;-webkit-box-shadow:none;}
+
 .channels-Ie2l6A, #app-mount .messagesWrapper-3lZDfY, #app-mount .members-1998pB, #app-mount .activityFeed-28jde9, #app-mount .wrapper-29NfPK, .search-bar.search-bar-light .search-bar-inner,
     #app-mount .search-results-wrap, #app-mount .search-results-wrap .search-result .search-result-message.hit, #app-mount .search-results-wrap .search-result.expanded .search-result-message.hit,
-    #app-mount .guildsWrapper-5TJh6A, #friends,#app-mount #friends,.theme-dark .root-1BQpZw,#app-mount .title-3qD0b-,.titleWrapper-1l0xT9{background: var(--Transparency);}
+    #app-mount .guildsWrapper-5TJh6A, #friends,#app-mount #friends,.theme-dark .root-1BQpZw,#app-mount .title-3qD0b-,.titleWrapper-1l0xT9{background: rgba(0,0,0,0);}
 /*member icon color*/
 #app-mount .member-3W1lQa:hover .content-OzHfo4, .member-3W1lQa.popout-open .content-OzHfo4, .member-3W1lQa .popout-open .content-OzHfo4{background:transparent; border-left:4px solid var(--accentcolor)}
 /* hide dividers */ 
@@ -45,7 +47,7 @@
 
 /* web links */
     .theme-dark .markup-2BOw-j a{color: var(--accentcolor);}
-    .theme-dark .embedTitleLink-1Zla9e{color:var(--boxcolor2)!important;}
+    .theme-dark .embedTitleLink-1Zla9e{color:var(--accentcolor2)!important;}
 /* embeded */
 .theme-dark .embedInner-1-fpTo{background-color:var(--Transparency);border-color:var(--accentcolor2);}
 .theme-dark .embedPill-1Zntps{background-color:var(--accentcolor2)}
@@ -55,7 +57,7 @@
 /*here is where it says typing...*/
     #app-mount .typing-2GQL18{background: transparent !important;}
      /*around the text box*/
-    #app-mount .chat-3bRxxu form {Background:var(--Transparency);	margin-left: 0px !important;margin-right: 0px !important;}
+    #app-mount .chat-3bRxxu form {Background:rgba(0,0,0,0);margin-left: 0px !important;margin-right: 0px !important;}
     .channelTextArea-rNsIhG {padding-top: 10px;}
     /*here is where the textbox is*/ 
     #app-mount .inner-zqa7da {background: var(--Transparency);margin-left: 20px;margin-right: 20px;border-radius:20px;border: 2px solid var(--boxcolor2);} 
@@ -421,6 +423,8 @@ background: linear-gradient(to bottom, rgba(0,0,0,.25) 5%,var(--Transparency) 10
 .theme-dark .keyboardShortcutList-13cQ-8 .keybindGroup--6Qp-w .keybindDescription-2RDbC2,.theme-dark .item-30Gz8g,.theme-dark .bda-slist .bda-description{color:var(--textcolor)}
 .theme-dark .h5-18_1nd{color: var(--accentcolor);}
 .theme-dark .timestampCozy-2hLAPV{color:var(--textcolor1)}
+.name-2WpE7M, .nameWithActivity-1ceSyU{color:var(--textcolor)}
+.linkButtonIcon-Mlm5d6{opacity:.8}
 /* buttons */
 .theme-dark .keybindShortcut-1BD6Z1 span{color:var(--accentcolor);background-color:var(--Transparency);border:1px solid var(--boxcolor2);
 box-shadow: inset 0 -4px 0 var(--boxcolor2);}
