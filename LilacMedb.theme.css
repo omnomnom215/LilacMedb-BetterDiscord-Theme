@@ -7,6 +7,7 @@
 :root {
 	--wordmark: "lilacmedb by moth#0243"; /*you can free change the wordmark, but i ask you to not claim the theme as you own, i still own the imports they are the theme not this file*/
 	--background: url(https://i.imgur.com/rbTInWz.jpg);  /*Wallpaper. gifs will work but won't be animated*/
+	--bgtransparency: rgba(0,0,0,.2);
 	--homeiconbg: url('');
 	--Transparency: hsla(0, 0%, 0%, 0.3); /*background darkness last number (alpha) 0 is clear 1 is opaque*/
 	--boxcolor: rgba(243, 170, 255,.4);/*second accent color with transparency*/
