@@ -16,21 +16,21 @@
 	z-index:unset !important; /*reset from vsg*/
 }
 .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr:before {
-    border: 2px solid var(--boxcolor2);
+    border:2px solid var(--gbcolor,--boxcolor2);
     height: 100% !important;
     margin-top: -27px !important;
     left: -2px!important;
     width: 100%!important;
     border-radius: var(--Round1)!important;
-	background-color:var(--boxcolor2)!important;
+	background-color:var(--gbcolor,--boxcolor2)!important;
 }
 
 .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq:before {
-    border: 2px solid var(--accentcolor);
+    border:2px solid var(--gbcolor1,--accentcolor);
     height: 100% !important;
     margin-top: -27px !important;
     left: -2px !important;
     width: 100%!important;
     border-radius: var(--Round1);
-    background-color:var(--accentcolor)!important;
+    background-color:var(--gbcolor1,--accentcolor)!important;
 }
