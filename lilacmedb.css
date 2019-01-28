@@ -441,3 +441,5 @@ box-shadow: inset 0 -4px 0 var(--boxcolor2);}
 .inviteRowButton-3opYo2.lookFilled-1Gx00P.colorGreen-29iAKY:hover{color:var(--accentcolor);border:2px solid var(--boxcolor);background-color:var(--Transparency)}
 #app-mount .modal-1k91nT{background-color:var(--Transparency);border:1px solid var(--boxcolor2)}
 .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:active, .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover{background-color:var(--boxcolor2)}
+/* plugin membercount */
+.theme-dark #MemberCount{background-color:transparent;}
