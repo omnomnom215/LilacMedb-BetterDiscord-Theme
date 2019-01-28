@@ -425,6 +425,7 @@ background: linear-gradient(to bottom, rgba(0,0,0,.25) 5%,var(--Transparency) 10
 .theme-dark .timestampCozy-2hLAPV{color:var(--textcolor1)}
 .name-2WpE7M, .nameWithActivity-1ceSyU{color:var(--textcolor)}
 .linkButtonIcon-Mlm5d6{opacity:.8}
+.theme-dark .member-3W1lQa.popout-open .content-OzHfo4, .theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4{background-color:transparent}
 /* buttons */
 .theme-dark .keybindShortcut-1BD6Z1 span{color:var(--accentcolor);background-color:var(--Transparency);border:1px solid var(--boxcolor2);
 box-shadow: inset 0 -4px 0 var(--boxcolor2);}
