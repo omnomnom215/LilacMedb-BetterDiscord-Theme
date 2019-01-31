@@ -5,12 +5,14 @@
 ::-webkit-input-placeholder{color:var(--accentcolor) !important}
 #app-mount .textArea-2Spzkt,#app-mount .markup-2BOw-j,#app-mount .membersGroup-v9BXpm,#app-mount .activity-1IYsbk,#app-mount .header-ykumBX .title-3pkaKd {color:var(--textcolor);}
 /* Scrollbars */
-#app-mount ::-webkit-scrollbar-thumb {border:2px solid var(--boxcolor2) ;background-color:transparent ;} 
+#app-mount ::-webkit-scrollbar-thumb {border:2px solid var(--boxcolor2);background-color:transparent !important;} 
 #app-mount .scrollerWrap-2su1QI .scroller-2FKFPG::-webkit-scrollbar{width:10px;}
 #app-mount ::-webkit-scrollbar, #app-mount ::-webkit-scrollbar-track-piece,#app-mount ::-webkit-scrollbar-track {border-color: transparent ; background: transparent ;} 
 #app-mount ::-webkit-scrollbar-corner {display: none ;}
 #app-mount .scrollbar-3dvm_9::-webkit-scrollbar{width:8px;}
 #app-mount .scrollbarGhostHairline-1mSOM1::-webkit-scrollbar-thumb{border-radius:5px} 
+#app-mount .userPopout-3XzG_A .body-3iLsc4 .root-3-B5F3::-webkit-scrollbar-thumb{background-color:transparent!important;}
+
 /*basic main transparent elements*/
 /*background image*/
 #app-mount {background: var(--background) center top/cover no-repeat;animation: none;} 
