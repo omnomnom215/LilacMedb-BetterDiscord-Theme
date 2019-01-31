@@ -1,5 +1,5 @@
 .headerTop-3C2Zn0{align-items:flex-start;}
-.userPopout-3XzG_A{display:grid;width:auto;}
+.userPopout-3XzG_A{display:grid;width: max-content;}
 .header-2BwW8b{grid-area:1/1;display:grid;}
 .activity-11LB_k{grid-area:1/2}
 .ellipsis-1XUmPN,.theme-dark .activityUserPopout-2yItg2 .details-38sfDr {
@@ -8,14 +8,13 @@
  text-overflow:ellipsis;
  max-width: 10rem;
 }
-#app-mount .userPopout-3XzG_A .body-3iLsc4 .root-3-B5F3{max-width:220px;}
+#app-mount .userPopout-3XzG_A .body-3iLsc4 .root-3-B5F3{width:210px}
 #app-mount .userPopout-3XzG_A .body-3iLsc4 .root-3-B5F3::-webkit-scrollbar-thumb{color:transparent !important;}
-#app-mount .userPopout-3XzG_A .headerText-2sdzFM {margin-top:-60px;top: -10px;}
 
 #app-mount.avatarWrapper-3H_478 {margin:0;}
 #app-mount .popout-2fzvxG{
-    height: 250px;
-    width: 250px;
+    height: 15rem;
+    width: 15rem;
     border-radius:5px;
 }
 #app-mount .mask-3OgeRz{border-radius:5px;}
@@ -23,8 +22,16 @@
 
 #app-mount .userPopout-3XzG_A .headerText-2sdzFM{
     z-index:3;
-    margin-top: -70px;
-    top: -10px;
+    margin-top: -16px;
+    top: -18px;
     position: relative;
-    left: 10px;
+    left: 5px;
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 210px;
 }
+
+.activity-11LB_k{background-color:transparent;width: fit-content;}
+.headerName-fajvi9{padding:0 10px 0 10px;max-width: 200px;}
+.headerNameWrapper-3res2c{margin-top:-6px;}
+
