@@ -20,8 +20,11 @@
 }
 #app-mount .mask-3OgeRz{border-radius:5px;}
 .headerTop-3C2Zn0{padding:2px}
-#app-mount .userPopout-3XzG_A .headerText-2sdzFM{z-index:3;
+
+#app-mount .userPopout-3XzG_A .headerText-2sdzFM{
+    z-index:3;
     margin-top: -70px;
     top: -10px;
-
+    position: relative;
+    left: 10px;
 }
