@@ -1,6 +1,11 @@
 .headerTop-3C2Zn0{align-items:flex-start;}
 .userPopout-3XzG_A{display:grid;width: max-content;}
 .header-2BwW8b{grid-area:1/1;display:grid;}
+.userPopout-3XzG_A{border-radius:calc(var(--pfpborder) + 2px);}
+
+.headerTop-3C2Zn0{align-items:flex-start;}
+.userPopout-3XzG_A{display:grid;width: max-content;}
+.header-2BwW8b{grid-area:1/1;display:grid;border-bottom:1px solid rgba(0,0,0,.05);border-radius:var(--)}
 .activity-11LB_k{grid-area:1/2}
 .ellipsis-1XUmPN,.theme-dark .activityUserPopout-2yItg2 .details-38sfDr {
  overflow: visible;
@@ -15,9 +20,9 @@
 #app-mount .popout-2fzvxG{
     height: 15rem;
     width: 15rem;
-    border-radius:5px;
+    border-radius:var(--pfpborder);
 }
-#app-mount .mask-3OgeRz{border-radius:5px;}
+#app-mount .mask-3OgeRz{border-radius:var(--pfpborder)}
 .headerTop-3C2Zn0{padding:2px}
 
 #app-mount .userPopout-3XzG_A .headerText-2sdzFM{
@@ -31,11 +36,15 @@
     max-width: 210px;
 }
 #app-mount .userPopout-3XzG_A .headerText-2sdzFM .headerNameWrapper-3res2c {
-    margin-top:-20px
+    margin-top: -20px;
+}
+#app-mount .userPopout-3XzG_A .headerText-2sdzFM .joinedAtDate{
+    margin-top:-24px;
+    top:20px
 }
 
 
 .activity-11LB_k{background-color:transparent;width: fit-content;}
-.headerName-fajvi9{padding:0 10px 0 10px;max-width: 200px;}
+.headerName-fajvi9{padding:0 10px 0 10px;max-width: 200px;margin: 0;}
 .headerNameWrapper-3res2c{margin-top:-6px;}
 
