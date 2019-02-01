@@ -22,12 +22,11 @@
     width: 15rem;
     border-radius:var(--pfpborder);
 }
-#app-mount .mask-3OgeRz{border-radius:var(--pfpborder)}
 .headerTop-3C2Zn0{padding:2px}
 
 #app-mount .userPopout-3XzG_A .headerText-2sdzFM{
     z-index:3;
-    margin-top: -16px;
+    margin-top: -27px;
     top: -18px;
     position: relative;
     left: 5px;
@@ -47,4 +46,3 @@
 .activity-11LB_k{background-color:transparent;width: fit-content;}
 .headerName-fajvi9{padding:0 10px 0 10px;max-width: 200px;margin: 0;}
 .headerNameWrapper-3res2c{margin-top:-6px;}
-
