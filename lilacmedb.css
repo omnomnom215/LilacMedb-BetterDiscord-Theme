@@ -246,7 +246,7 @@
 #app-mount .memberOnline-1CIh-0{color:hsla(0, 0%, 100%, .7);}
 
 /*code box*/
-#app-mount .markup-2BOw-j pre, .markup-2BOw-j pre {background:var(--Transparency) !important;text-shadow: 0 0 2px rgba(0,0,0,1);border: 2px solid var(--boxcolor) !important;}
+#app-mount .markup-2BOw-j pre, .markup-2BOw-j pre {background: var(--Transparency);text-shadow: 0 0 2px rgba(0,0,0,1);border: 2px solid var(--boxcolor) !important;}
 #app-mount .containerCozy-jafyvG .markup-2BOw-j code.inline{background: rgba(0, 0, 0, 0.4);color:var(--accentcolor);border: 2px solid var(--boxcolor2);}
 #app-mount .containerCozy-jafyvG .markup-2BOw-j pre code {background: transparent;box-shadow:none;}
 #app-mount .markup-2BOw-j code{background-color:var(--boxcolor);}
@@ -426,13 +426,16 @@ background: linear-gradient(to bottom, rgba(0,0,0,.25) 5%,var(--Transparency) 10
     #app-mount .topPill-30KHOu .itemSelected-1qLhcL{color:var(--accentcolor);background-color:var(--Transparency);border:1px solid var(--boxcolor2)}
     .theme-dark .topPill-30KHOu .item-PXvHYJ{color:var(--textcolor)}
     .theme-dark .topPill-30KHOu .item-PXvHYJ:hover:not(.itemSelected-1qLhcL){background-color:var(--Transparency)}
-/* misc text color adjustments */
+/* misc text & color adjustments */
 .theme-dark .keyboardShortcutList-13cQ-8 .keybindGroup--6Qp-w .keybindDescription-2RDbC2,.theme-dark .item-30Gz8g,.theme-dark .bda-slist .bda-description{color:var(--textcolor)}
 .theme-dark .h5-18_1nd{color: var(--accentcolor);}
 .theme-dark .timestampCozy-2hLAPV{color:var(--textcolor1)}
 .name-2WpE7M, .nameWithActivity-1ceSyU{color:var(--textcolor)}
 .linkButtonIcon-Mlm5d6{opacity:.8}
 .theme-dark .member-3W1lQa.popout-open .content-OzHfo4, .theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4{background-color:transparent}
+.theme-dark .title-2BxgL2{color:#fff}
+.theme-dark .text-GwUZgS{color:var(--textcolor)}
+.theme-dark .noChannel-Z1DQK7{background-color:transparent;}
 /* buttons */
 .theme-dark .keybindShortcut-1BD6Z1 span{color:var(--accentcolor);background-color:var(--Transparency);border:1px solid var(--boxcolor2);
 box-shadow: inset 0 -4px 0 var(--boxcolor2);}
