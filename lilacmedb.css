@@ -41,7 +41,7 @@
 #app-mount .attachButtonDivider-3Glu60,#app-mount .divider-2PMBlV{display:none}
 .base-3dtUhz{border-radius:0 0 0 0}
 #app-mount .homeIcon-1FoKUJ{display:block;}
-.separator-2zcjq8{border:none}
+.separator-2zcjq8{border:none;}
 .username-_4ZSMR{text-shadow:1px 1px #000;}
 .theme-dark .keybindShortcut-1BD6Z1 span .bindArrow-2X3Aom g{fill:var(--accentcolor)}
 .theme-dark .hasMoreButton-1MELpI{color:var(--accentcolor);background:var(--boxcolor);border:none;}
@@ -118,9 +118,9 @@
 #app-mount .autocomplete-1vrmpx,#app-mount .autocompleteInner-zh20B_{background-color: rgba(0,0,0,.4);box-shadow: 0 0 3px 1px #000;}
 .userPopout-3XzG_A{background:rgba(0,0,0,.4);border:2px solid var(--boxcolor2);}
 
-#app-mount .menu-Sp6bN1{background-color: var(--boxcolor); color:var(--accentcolor); border-radius: 5%}
-#app-mount .item-1GzJrl{color: var(--accentcolor);}
-#app-mount .item-1GzJrl:hover{background: var(--boxcolor);color: var(--accentcolor);}
+#app-mount .menu-Sp6bN1{background-color: var(--boxcolor); color:var(--accentcolor); border-radius: 10px}
+#app-mount .item-1GzJrl{color: var(--textcolor);}
+#app-mount .item-1GzJrl:hover{background: var(--boxcolor);color: var(--textcolor);border-left:4px solid var(--accentcolor);border-radius:3px}
 #app-mount .item-1GzJrl.leave-1DRJfn{color:rgba(255, 50, 50, .8);text-shadow:0 0 1px rgba(0,0,0,.8);}
 .lookFilled-1Gx00P.colorRed-1TFJan{background-color:rgba(255, 50, 50, .6);}
 .lookFilled-1Gx00P.colorRed-1TFJan:hover{background-color:rgba(255, 80, 80,1);}
