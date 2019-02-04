@@ -105,7 +105,8 @@
 .nameSelectedText-sp_EUw, .nameSelectedVoice-1qSph5,.nameHoveredText-1uO31y, .nameHoveredVoice-YJ1Vfd, .nameUnreadText-DfkrI4, .nameUnreadVoice-EVo-wI{color:var(--accentcolor);}
 .colorConnectedText-1c_uzY,.colorDefaultText-oas-QM, .colorConnectedVoice-3kyvUN, .colorDefaultVoice-3wYlhb,
 .colorLockedText-1VRkPt, .colorLockedVoice-2UlBjl{color:var(--accentcolor2);opacity:1;}
-.colorSelectedText-1y4Wvs, .colorSelectedVoice-Xcb_9R, .colorHoveredText-OZnAgu, .colorHoveredVoice-1kucsK, .colorUnreadText-2t7XRb, .colorUnreadVoice-137o4S{color:var(--accentcolor);opacity:1;}
+.colorSelectedText-1y4Wvs, .colorSelectedVoice-Xcb_9R, .colorHoveredText-OZnAgu, .colorHoveredVoice-1kucsK, .colorUnreadText-2t7XRb, .colorUnreadVoice-137o4S,.actionIcon-2Hi9ZG:hover{color:var(--accentcolor);opacity:1;}
+.actionIcon-2Hi9ZG{color:var(--accentcolor);opacity:.5;}
 
 /*context menu*/
 #app-mount .contextMenu-HLZMGh{background-color: var(--Transparency);color:var(--accentcolor);border-radius: 10px;border: 2px solid var(--accentcolor);}
