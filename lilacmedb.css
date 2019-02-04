@@ -148,6 +148,10 @@
 .uploadModal-2ifh8j .footer-3mqk7D .button-primary{margin-right:0px!important;background-color:var(--boxcolor);}
 .uploadModal-2ifh8j .inner-3nWsbo{border:none}
 .theme-brand .inner-zqa7da{background-color:var(--boxcolor)}
+/* upload modal / member auto complete */
+.theme-brand .content-Qb0rXO,.theme-dark .content-Qb0rXO,.theme-brand .description-11DmNu, .theme-brand .descriptionUsername-J_75O8,.theme-brand .descriptionDiscriminator-3vUOCc{color:var(--textcolor)}
+#app-mount .description-11DmNu, #app-mount .descriptionUsername-J_75O8{color:#fff}
+
 /*pinned message modal*/
 #app-mount .header-ykumBX,#app-mount .footer-1kmXd4{background-color:transparent!important;border:none !important;}
 #app-mount .messagesPopoutWrap-1MQ1bW{background-color: var(--Transparency);border:2px solid var(--boxcolor);}
@@ -286,9 +290,9 @@
 .theme-dark .bda-slist .bda-header{color:#fff;border-bottom-color:transparent;}
 .theme-dark .bda-slist .bda-footer{border-top-color:transparent;}
 .theme-dark .bda-slist li{background-color:var(--boxcolor);border:none;}
-.bda-slist .bda-footer button,.bd-pfbtn{color:var(--accentcolor);background-color:var(--boxcolor)}
+.bda-slist .bda-footer button,.bd-pfbtn{color:#fff;background-color:var(--boxcolor);border:2px solid var(--accentcolor);}
 .bda-slist .bda-footer button:hover{background-color:var(--accentcolor2)}
-.theme-dark #bd-settingspane-container .ui-switch-item .style-description{color:var(--textcolor1)}
+.theme-dark #bd-settingspane-container .ui-switch-item .style-description{color:var(--textcolor1);}
 .theme-dark .header-2RyJ0Y,.theme-dark #bd-settings-sidebar .ui-tab-bar-header{color:var(--accentcolor)}
 .bda-slist .bda-footer a{color:var(--accentcolor)}
 #app-mount #bd-settings-sidebar .ui-tab-bar-item,.side-8zPYf6 .item-PXvHYJ{color:var(--textcolor);}
