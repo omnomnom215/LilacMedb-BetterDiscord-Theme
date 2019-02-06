@@ -10,17 +10,19 @@
 :root {
     --wordmark: "NG3675 by moth#0243";
     --background: url('https://omnomnom215.github.io/LilacMedb-BetterDiscord-Theme/NGC 3675.jpg');
-	--bgtransparency: rgba(0,0,0,.2);
+	--bgtransparency: rgba(0,0,0,.5);
     --homeiconbg: url('');
     --Transparency: hsla(0, 0%, 0%, 0.8);
-    --boxcolor: rgba(102, 85, 118, 0.5);
-    --boxcolor2: rgba(51, 51, 85, 0.8);
+    --boxcolor: rgba(102, 68, 85, 0.34); /*rgba(102, 85, 118, 0.5);*/
+    --boxcolor2: rgba(102, 68, 85, 0.5);
     --accentcolor: #664455;
-    --accentcolor2: #ccbbdd;
+    --accentcolor2: #fff;
     --Round0: 10px;
     --Round1: 20%;
     --font: 'nunito','Comfortaa';
-    --textshadow: 0px 0px 2px rgba(0,0,0,0.8);
-    --textcolor: rgba(255,255,255,0.8);
+    --textshadow: 0px 0px 1px rgba(0,0,0,1);
+    --textcolor: rgba(255,255,255,1);
     --textcolor1: rgba(255,255,255,0.4);
+    --gbcolor1:#9614d0;
+    --gbcolor:#d04814;
 }
