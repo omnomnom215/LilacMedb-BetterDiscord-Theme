@@ -23,4 +23,6 @@
 	--textshadow: 0px 0px 2px rgba(0,0,0,0.8); /* the optional text shadow on everything, this is to help make text more readable.*/
 	--textcolor: rgba(255,255,255,0.8); /*the main text color, a lot of elements are #fff i need to update those expect another variable soon*/
 	--textcolor1: rgba(255,255,255,0.4); /*this is a darker/lighter more transparent verison of textcolor for sub text*/
+	--gbcolor1:#9614d0;
+   	--gbcolor:#d04814;
 }
