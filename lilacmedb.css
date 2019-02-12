@@ -198,7 +198,7 @@
 .container-VSDcQc{border:2px solid var(--boxcolor2)}
 /*full sized profile*/
 #app-mount .topSectionNormal-2-vo2m,#app-mount .headerNormal-T_seeN{background-color:var(--Transparency);}
-.topSectionPlaying-1J5E4n,#app-mount .headerPlaying-j0WQBV{background-color:var(--boxcolor2);width: -webkit-fill-available;}
+.topSectionPlaying-1J5E4n,#app-mount .headerPlaying-j0WQBV{background-color:var(--boxcolor2);}
 .topSectionStreaming-1Tpf5X,#app-mount .headerStreaming-2FjmGz{background-color:rgba(80, 0, 255, 0.6)}
 .topSectionSpotify-1lI0-P,#app-mount .headerSpotify-zpWxgT{background-color:rgba(33, 255, 141, 0.6)}
 .topSectionXbox-3fWLjS,#app-mount .headerXbox-3G-4PF{background-color:rgba(255, 89, 0, 0.6)}
