@@ -215,7 +215,8 @@
 .theme-dark .search-2oPWTC .searchBar-3dMhjb{background-color:var(--boxcolor);}
 .theme-dark .search-2oPWTC .searchBar-3dMhjb .public-DraftEditorPlaceholder-root{color:var(--accentcolor)}
 /*search menu*/
-#app-mount .searchPopout-1vUlP3,#app-mount .container-3ayLPN,#app-mount .focused-2bY0OD{background-color:var(--Transparency);border:2px solid var(--boxcolor)!important;box-sizing:border-box;}
+
+#app-mount .searchPopout-1vUlP3,#app-mount .container-3ayLPN,#app-mount .focused-2bY0OD{background-color:var(--Transparency);border: 2px solid var(--boxcolor2)!important;box-sizing:border-box;}
 #app-mount .searchAnswer-3Dz2-q, #app-mount .searchFilter-2ESiM3{color:var(--accentcolor);background:var(--boxcolor);}
 #app-mount .option-96V44q.selected-rZcOL-{background-color:var(--boxcolor);}
 .theme-dark .resultsGroup-r_nuzN:before{border-color:transparent;}
