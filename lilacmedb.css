@@ -1343,7 +1343,8 @@
 }
 
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--selected:hover,
-.theme-dark .calendarPicker-2yf6Ci .react-datepicker__day:hover{
+.theme-dark .calendarPicker-2yf6Ci .react-datepicker__day:hover,
+.theme-dark .datePicker--XZbmJ .datePickerHint-3Q1Udw .hintValue-29ny8Z{
     color:var(--textcolor);
     background-color:var(--accentcolor)
 }
