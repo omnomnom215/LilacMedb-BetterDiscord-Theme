@@ -1217,14 +1217,27 @@
  .theme-dark .topPill-30KHOu .item-PXvHYJ:hover:not(.itemSelected-1qLhcL){
     background-color:var(--Transparency)
 }
+
+.theme-dark .price-NUANu6, .theme-light .price-NUANu6{
+    color:var(--accentcolor);
+    background-color:var(--Transparency);
+    border:1px solid var(--boxcolor2)
+}
+
+.theme-dark .item-2yFVoY,.theme-dark .outer-2IVh5n.interactive-1BeKSi:hover{
+    background-color:var(--Transparency);
+}
+.theme-dark .item-2yFVoY:hover{
+    background-color:var(--boxcolor)
+}
 /* misc text & color adjustments */
- .theme-dark .keyboardShortcutList-13cQ-8 .keybindGroup--6Qp-w .keybindDescription-2RDbC2,.theme-dark .item-30Gz8g,.theme-dark .bda-slist .bda-description{
+.theme-dark .colorStandard-2KCXvj,.theme-dark .description-1AwRKJ, .theme-dark .keyboardShortcutList-13cQ-8 .keybindGroup--6Qp-w .keybindDescription-2RDbC2,.theme-dark .item-30Gz8g,.theme-dark .bda-slist .bda-description{
     color:var(--textcolor)
 }
  .theme-dark .h5-18_1nd{
     color: var(--accentcolor);
 }
- .theme-dark .timestampCozy-2hLAPV{
+.theme-dark .label-13UUcd, .theme-light .label-13UUcd, .theme-dark .timestampCozy-2hLAPV,.theme-dark .content-3FEARf,.theme-dark .openDescription-2XUOH3,.theme-dark .collapsedTimestamp-2gjDIM, .theme-dark .openTimestamp-sTgPmn{
     color:var(--textcolor1)
 }
  .name-2WpE7M, .nameWithActivity-1ceSyU{
