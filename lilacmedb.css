@@ -76,7 +76,7 @@
     box-shadow:none;
     -webkit-box-shadow:none;
 }
- .channels-Ie2l6A, #app-mount .messagesWrapper-3lZDfY, #app-mount .members-1998pB, .theme-dark .activityFeed-1C0EmJ, #app-mount .wrapper-29NfPK, .search-bar.search-bar-light .search-bar-inner, #app-mount .search-results-wrap, #app-mount .search-results-wrap .search-result .search-result-message.hit, #app-mount .search-results-wrap .search-result.expanded .search-result-message.hit, #app-mount .guildsWrapper-5TJh6A, #friends,#app-mount #friends,.theme-dark .root-1BQpZw,#app-mount .title-3qD0b-,.titleWrapper-1l0xT9,#app-mount .applicationStore-1pNvnv, #app-mount .gameLibrary-TTDw4Y{
+ .channels-Ie2l6A, #app-mount .messagesWrapper-3lZDfY, #app-mount .members-1998pB, .theme-dark .activityFeed-1C0EmJ, #app-mount .wrapper-29NfPK, .search-bar.search-bar-light .search-bar-inner, #app-mount .search-results-wrap, #app-mount .search-results-wrap .search-result .search-result-message.hit, #app-mount .search-results-wrap .search-result.expanded .search-result-message.hit, #app-mount .wrapper-1Rf91z, #friends,#app-mount #friends,.theme-dark .root-1BQpZw,#app-mount .title-3qD0b-,.titleWrapper-1l0xT9,#app-mount .applicationStore-1pNvnv, #app-mount .gameLibrary-TTDw4Y{
     background: rgba(0,0,0,0);
 }
 /*member icon color*/
@@ -85,7 +85,7 @@
      border-left:4px solid var(--accentcolor)
 }
 /* hide dividers */
- .guildSeparator-1X4GQ1,.theme-dark .divider-3573oO,.side-8zPYf6 .separator-gCa7yv,.theme-dark #bd-settings-sidebar .ui-tab-bar-separator{
+ .guildSeparator-3s64Iy,.theme-dark .divider-3573oO,.side-8zPYf6 .separator-gCa7yv,.theme-dark #bd-settings-sidebar .ui-tab-bar-separator{
     display:none;
 }
 /* no idea where this stuff goes currently */
@@ -859,16 +859,19 @@
  :root{
     --homeiconbg1:url('https://i.imgur.com/naHr38x.png')
 }
- #app-mount .homeIcon-1FoKUJ {
+  #app-mount .homeIcon-tEMBK1
+ {
     background: var(--homeiconbg), var(--homeiconbg1);
     background-color: rgba(0,0,0,0)!important;
     color: rgba(0,0,0,0);
     background-position: center;
     background-size: cover;
 }
- .guilds-1q_RqH > .guild-1EfMGQ:first-child > .guildInner-3DSoA4{
+ .scroller-2TZvBN > .container-1ETFDs:first-child > .wrapper-2lTRaf{
     background:none !important;
 }
+
+
 /*emote menu*/
  .emojiPicker-3m1S-j{
     border:1px solid transparent !important;
@@ -912,10 +915,10 @@
     border-radius:5px!important
 }
 /* guild bar */
- .guild-1EfMGQ .guildInner-3DSoA4{
+ .container-2td-dC .wrapper-2lTRaf{
     background-color:rgba(0,0,0,.2)!important;
 }
- #app-mount .friendsOnline-_wi_fM {
+ #app-mount .friendsOnline-2JkivW {
     color:var(--textcolor)
 }
  #app-mount .bar-30k2ka {
@@ -923,13 +926,13 @@
     text-align: left
 }
 /* guild add button */
- #app-mount .guildsAdd-21_IdK{
+ #app-mount .circleIconButton-jET_ig{
     color:var(--boxcolor2);
     background:rgba(0,0,0,.2);
     border:none;
     border-radius:10px
 }
- #app-mount .guildsAdd-21_IdK:hover{
+ #app-mount .circleIconButton-jET_ig:hover{
     color:var(--accentcolor);
 }
 /* guild invite modal */
