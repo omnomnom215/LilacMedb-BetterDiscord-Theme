@@ -1,13 +1,13 @@
 /* minor credits to devilbro, satoru and a few others for helping me come up with the wrong way to make borders on the guilds section */
 /*i didn't really do all that much code myself hahahaha*/
 
-#app-mount .container-2td-dC .wrapper-2lTRaf{
+#app-mount .guild-1EfMGQ .guildInner-3DSoA4{
     border-radius: calc(var(--Round1) - 2px)!important;
     background-color:rgba(0,0,0,.2)!important;
 }
 
-#app-mount .wrapper-1Rf91z .scroller-2TZvBN .container-2td-dC.unread-2OHH1w:before,
-#app-mount .wrapper-1Rf91z .scroller-2TZvBN .container-2td-dC.selected-nT-gM3:before {
+#app-mount .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr:before,
+#app-mount .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq:before {
 	top: 50%!important;
 	left: -2px!important;
 	border-radius:var(--Round1)!important;
@@ -15,7 +15,7 @@
 	background-color:transparent;
 	z-index:unset !important; /*reset from vsg*/
 }
-#app-mount .wrapper-1Rf91z .scroller-2TZvBN .container-2td-dC.unread-2OHH1w:before {
+#app-mount .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr:before {
     border:2px solid var(--gbcolor);
     height: 100% !important;
     margin-top: -27px !important;
@@ -25,7 +25,7 @@
 	background-color:var(--gbcolor)!important;
 }
 
-#app-mount .wrapper-1Rf91z .scroller-2TZvBN .container-2td-dC.selected-nT-gM3:before {
+#app-mount .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq:before {
     border:2px solid var(--gbcolor1);
     height: 100% !important;
     margin-top: -27px !important;
