@@ -867,6 +867,7 @@
 }
  .scroller-2TZvBN > .container-1ETFDs:first-child > .wrapper-2lTRaf{
     background:none !important;
+    border-radius: var(--Round)!important;
 }
 
 /*emote menu*/
