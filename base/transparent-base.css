@@ -1,0 +1,51 @@
+
+/* main bg transparency */
+#app-mount {
+    background:coral;
+}
+/* guild bar / serverfolder background */
+.container-2lgZY8,
+.theme-dark .wrapper-1Rf91z{
+    background:transparent;
+}
+.theme-dark .circleIconButton-jET_ig{
+    background:rgba(0,0,0,.2);
+    border-color:rgba(0,0,0,1);
+    color:rgba(0,0,0,1)
+}
+.theme-dark .wrapper-2lTRaf{background: transparent;}
+/* unnecessary elements */
+.theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ{
+    background:transparent;
+}
+
+/* channel list drop down menu */
+.hasDropdown-2invhV .header-2o-2hj{background:transparent;}
+.hasDropdown-2invhV .header-2o-2hj:hover{background:rgba(0,0,0,.5);}
+/* channels */
+
+.channels-Ie2l6A,.container-PNkimc{
+    background:transparent;
+}
+
+/* user info container */
+.theme-dark .container-2Thooq, .theme-light .container-2Thooq{background:rgba(0,0,0,.5);}
+
+/* chatbox */
+.theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3{background:transparent;}
+/* typing... */
+.theme-dark .typing-2GQL18{background:transparent;}
+/* titlebar for main server area */
+.theme-dark .title-3qD0b-{background:transparent;}  /*note : contains box shadows*/
+/* .theme-dark .base-gE7OpD span for text later */
+/* message / chat area */
+.theme-dark .messagesWrapper-3lZDfY{
+    background:transparent;
+}
+
+/* members list */
+.theme-dark .members-1998pB{
+    background:transparent;
+}
+/* member-count plugin */
+.theme-dark #MemberCount{background:transparent;}
