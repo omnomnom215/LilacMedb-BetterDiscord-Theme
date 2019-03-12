@@ -856,19 +856,14 @@
     -webkit-box-shadow:none;
 }
 /*home icon*/
- :root{
-    --homeiconbg1:url('https://i.imgur.com/naHr38x.png')
-}
-  #app-mount .homeIcon-tEMBK1
+#app-mount .homeIcon-tEMBK1 g {display:none}
+ #app-mount .homeIcon-tEMBK1
  {
-    background: var(--homeiconbg), var(--homeiconbg1);
-    background-color: rgba(0,0,0,0)!important;
-    color: rgba(0,0,0,0);
+    background:var(--homeiconbg);
+    background-color: rgba(255,255,255,1)!important;
     background-position: center;
-    background-size: cover;
-}
- .scroller-2TZvBN > .container-1ETFDs:first-child > .wrapper-2lTRaf{
-    background:none !important;
+    background-size: 50px;
+    background-repeat: no-repeat;
 }
 
 
