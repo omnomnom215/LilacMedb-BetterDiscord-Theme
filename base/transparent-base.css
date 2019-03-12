@@ -3,6 +3,20 @@
 #app-mount {
     background:coral;
 }
+body,.app-19_DXt, .app-2rEoOp, .appMount-3lHmkl{background:transparent}
+
+/* scrollbars */
+
+.scroller-2FKFPG::-webkit-scrollbar{width:10px}
+#app-mount ::-webkit-scrollbar-thumb{
+    background:rgba(0,0,0,.4);
+    border-color:transparent;
+}
+#app-mount ::-webkit-scrollbar-track,
+#app-mount ::-webkit-scrollbar-track-piece{
+    background:transparent;
+    border-color:transparent;
+}
 /* guild bar / serverfolder background */
 .container-2lgZY8,
 .theme-dark .wrapper-1Rf91z{
@@ -14,7 +28,8 @@
     color:rgba(0,0,0,1)
 }
 .theme-dark .wrapper-2lTRaf{background: transparent;}
-/* unnecessary elements */
+.homeButton-2Cw51C{background:transparent!important;}
+/* unnecessary elements /layers to be use for transparency maybe later */
 .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ{
     background:transparent;
 }
@@ -23,7 +38,6 @@
 .hasDropdown-2invhV .header-2o-2hj{background:transparent;}
 .hasDropdown-2invhV .header-2o-2hj:hover{background:rgba(0,0,0,.5);}
 /* channels */
-
 .channels-Ie2l6A,.container-PNkimc{
     background:transparent;
 }
@@ -38,6 +52,7 @@
 /* titlebar for main server area */
 .theme-dark .title-3qD0b-{background:transparent;}  /*note : contains box shadows*/
 /* .theme-dark .base-gE7OpD span for text later */
+
 /* message / chat area */
 .theme-dark .messagesWrapper-3lZDfY{
     background:transparent;
@@ -47,5 +62,16 @@
 .theme-dark .members-1998pB{
     background:transparent;
 }
+/* status */
+.theme-dark .status-2s6iDp{
+    border-color: transparent;
+}
 /* member-count plugin */
 .theme-dark #MemberCount{background:transparent;}
+/* home tabs backgrounds */
+.theme-dark .activityFeed-28jde9,
+.theme-dark .gameLibrary-TTDw4Y,
+.theme-dark .applicationStore-1pNvnv,
+.theme-dark .container-3gCOGc,.theme-dark .headerBar-UHpsPw/*header for friends/library/activity/store*/{
+    background:transparent;
+}
