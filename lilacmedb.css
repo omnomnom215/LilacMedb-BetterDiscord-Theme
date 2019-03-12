@@ -857,7 +857,7 @@
 }
 /*home icon*/
 #app-mount .homeIcon-tEMBK1 g {display:none}
- #app-mount .homeIcon-tEMBK1
+#app-mount .homeIcon-tEMBK1
  {
     background:var(--homeiconbg);
     background-color: rgba(0,0,0,0)!important;
@@ -865,7 +865,9 @@
     background-size: 50px;
     background-repeat: no-repeat;
 }
-
+ .scroller-2TZvBN > .container-1ETFDs:first-child > .wrapper-2lTRaf{
+    background:none !important;
+}
 
 /*emote menu*/
  .emojiPicker-3m1S-j{
