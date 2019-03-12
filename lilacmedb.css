@@ -229,7 +229,7 @@
     -webkit-mask: none;
     mask: none;
 }
- .image-33JSyf,.status-oxiHuE,.gameIcon-_0rmMm,.avatarHint-1qgaV3{
+ .image-33JSyf, .status-oxiHuE, .gameIcon-_0rmMm, .avatarHint-1qgaV3, .inner-1W0Bkn,.avatarSmall-3ACRaI .status-2zcSVk{
      border-radius:var(--Round1) 
 }
 /*search bar*/
@@ -1395,4 +1395,9 @@
     background: var(--Transparency);
     border: 1px solid var(--accentcolor);
     color:var(--accentcolor)
+}
+/* remove the status border bit is annoying */
+.theme-dark .status-2s6iDp,
+.theme-dark .status-2kJpnA{
+border-color:transparent
 }
