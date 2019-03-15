@@ -1401,3 +1401,15 @@
 .theme-dark .status-2kJpnA{
 border-color:transparent
 }
+/* reaction modal */
+.theme-dark .reactors-Blmlhw, .theme-dark .sidebar-1-SQro{
+    background:transparent;
+}
+
+.theme-dark .reactionSelected-1pqISm{
+    background-color:var(--boxcolor);
+    border: 2px solid #0008;
+}
+.theme-dark .container-1If-HZ{
+    border: 2px solid #0008;
+}
