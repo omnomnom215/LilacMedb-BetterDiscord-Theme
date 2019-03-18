@@ -1375,6 +1375,11 @@
 }
 
 /* activity feed update */
+
+.theme-dark .activityFeed-28jde9{
+    background:transparent;
+}
+
 .theme-dark .inset-GQDQYw,.theme-dark .placeholderWrapper-3FaLtZ,.theme-dark .outer-2IVh5n,.theme-dark .recentlyPlayedContainer-2F3MqS,.theme-dark .unwrapped-37iUtM,.theme-dark .multipleIconWrapper-2TXVB4, .theme-dark .section-3TvauS{
     background-color:var(--Transparency);
 }
@@ -1413,3 +1418,4 @@ border-color:transparent
 .theme-dark .container-1If-HZ{
     border: 2px solid #0008;
 }
+
