@@ -1,5 +1,40 @@
+.listItem-2P_4kh .pill-31IEus {
+    left: 10px;
+    position: absolute;
+    top: -1px;
+}
+
+.listItem-2P_4kh .wrapper-sa6paO {
+    overflow: visible;
+    height:50px;
+    width: 50px;
+}
+
+.listItem-2P_4kh .wrapper-sa6paO .item-2hkk8m {
+    background-color: var(--gbcolor);
+    border-radius: 0px;
+    display: block;
+    left: 3.5px;
+    position: absolute;
+    width: 54px !important;
+    height:54px!important;
+}
+
+.theme-dark .button-OhfaWu.selected-wSa2KV, .theme-light .button-OhfaWu.selected-wSa2KV{
+   background-color: rgba(0,0,0,.4)
+}
+.theme-dark .button-OhfaWu{background:rgba(0,0,0,0)}
+
+.listItem-2P_4kh .pill-2uzAFe {
+    left: 9px;
+    position: absolute;
+    top: -1px;
+}
+
+.wrapper-1BJsBx .homeIcon-tEMBK1 path{display:none}
+
 /* minor credits to devilbro, satoru and a few others for helping me come up with the wrong way to make borders on the guilds section */
-/*i didn't really do all that much code myself hahahaha*/
+/*i didn't really do all that much code myself hahahaha
 
 #app-mount .container-2td-dC .wrapper-2lTRaf{
     border-radius: calc(var(--Round1) - 2px)!important;
@@ -13,7 +48,7 @@
 	border-radius:var(--Round1)!important;
 	width:100%!important;
 	background-color:transparent;
-	z-index:unset !important; /*reset from vsg*/
+	z-index:unset !important;
 }
 #app-mount .wrapper-1Rf91z .scroller-2TZvBN .container-2td-dC.unread-2OHH1w:before {
     border:2px solid var(--gbcolor);
@@ -33,4 +68,4 @@
     width: 100%!important;
     border-radius: var(--Round1);
     background-color:var(--gbcolor1)!important;
-}
+}*/
