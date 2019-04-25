@@ -884,8 +884,10 @@
     background:var(--homeiconbg);
     background-color: rgba(0,0,0,0)!important;
     background-position: center;
-    background-size: 50px;
+    background-size: 48px;
     background-repeat: no-repeat;
+    width: 48px;
+    height: 48px;
 }
  .scroller-2TZvBN > .container-1ETFDs:first-child > .wrapper-2lTRaf{
     background:none !important;
