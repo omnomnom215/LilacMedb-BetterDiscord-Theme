@@ -1,3 +1,10 @@
+#app-mount .wrapper-1Rf91z foreignObject,
+#app-mount .wrapper-1Rf91z .wrapper-25eVIn, 
+#app-mount .wrapper-1Rf91z .svg-1X37T1 {
+    border-radius: calc(var(--Round1) - 2px)!important;
+    mask:none;
+}
+
 .listItem-2P_4kh .pill-31IEus {
     left: 8px!important;
     position: absolute;
@@ -11,8 +18,8 @@
 }
 
 #app-mount .listItem-2P_4kh .wrapper-sa6paO .item-2hkk8m {
-    background-color: var(--gbcolor);
-    border-radius: 0px;
+    background-color: var(--gbcolor1);
+    border-radius:var(--Round1)!important;
     display: block;
     left: 3px;
     position: absolute;
