@@ -20,6 +20,12 @@
     height:53px!important;
 }
 
+#app-mount .listItem-2P_4kh.folder.closed .pill-31IEus .item-2hkk8m,#app-mount .listItem-2P_4kh.folder.open .pill-31IEus .item-2hkk8m{
+    background-color: #0000;
+}
+
+
+
 .theme-dark .button-OhfaWu.selected-wSa2KV, .theme-light .button-OhfaWu.selected-wSa2KV{
    background-color: rgba(0,0,0,.4)
 }
@@ -33,11 +39,13 @@
 	left:-2px !important;
 }
 
-.wrapper-1Rf91z .pill-31IEus, .wrapper-1Rf91z .pill-3YxEhL {
+#app-mount .wrapper-1Rf91z .pill-31IEus,#app-mount .wrapper-1Rf91z .pill-3YxEhL {
     left: -2px !important;
 }
 
 .wrapper-1BJsBx .homeIcon-tEMBK1 path{display:none}
+
+
 
 /* minor credits to devilbro, satoru and a few others for helping me come up with the wrong way to make borders on the guilds section */
 /*i didn't really do all that much code myself hahahaha
