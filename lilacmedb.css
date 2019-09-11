@@ -261,8 +261,8 @@
     background-color:var(--boxcolor)
 }
 
-.theme-dark .icon-1_QxNX, .theme-light .icon-1_QxNX, .theme-dark .name-3_Dsmg, .theme-light .name-3_Dsmg{
-    color:var(--textcolor)
+.theme-dark .icon-1_QxNX, .theme-light .icon-1_QxNX{
+    color:var(--textcolor);
 }
 
 
