@@ -342,9 +342,11 @@
     border:2px solid var(--boxcolor2);
 }
  #app-mount .menu-Sp6bN1{
-    background-color: var(--boxcolor);
-     color:var(--accentcolor);
-     border-radius: 10px
+    background-color: var(--Transparency);
+    color:var(
+    --accentcolor);
+    border-radius: 10px;
+    border: 2px solid var(--accentcolor);
 }
  #app-mount .item-1GzJrl{
     color: var(--textcolor);
