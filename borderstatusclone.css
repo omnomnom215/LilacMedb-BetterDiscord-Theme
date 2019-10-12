@@ -1,0 +1,58 @@
+/*
+    fixed radial status snippet, feel free to use in your theme!
+    author: dmack6464
+*/
+
+/*simple rehosting somebody elses code for ease of use all credits go to where they belong*/
+
+.avatar-3uk_u9 .wrapper-3t9DeA[aria-label*="Idle"] svg rect,
+.avatar-3uk_u9 .wrapper-3t9DeA[aria-label*="Online"] svg rect,
+.avatar-3uk_u9 .wrapper-3t9DeA[aria-label*="Do Not Disturb"] svg rect,
+.avatar-3uk_u9 .wrapper-3t9DeA[aria-label*="Offline"] svg rect{
+    display: none;
+}
+.avatar-3uk_u9 .wrapper-3t9DeA[aria-label*="Idle"]:before {
+    position: absolute;
+    content: "";
+    top: -1px;
+    left: -1px;
+    height: 34px;
+    width: 34px;
+    box-shadow: 0px 0px 0px 2px inset var(--idle);
+    z-index: 3;
+    border-radius:3px;
+}
+.avatar-3uk_u9 .wrapper-3t9DeA[aria-label*="Online"]:before {
+    position: absolute;
+    content: "";
+    top: -1px;
+    left: -1px;
+    height: 34px;
+    width: 34px;
+    box-shadow: 0px 0px 0px 2px inset var(--online);
+    z-index: 3;
+    border-radius:3px;
+}
+.avatar-3uk_u9 .wrapper-3t9DeA[aria-label*="Do Not Disturb"]:before {
+    position: absolute;
+    content: "";
+    top: -1px;
+    left: -1px;
+    height: 34px;
+    width: 34px;
+    box-shadow: 0px 0px 0px 2px inset var(--dnd);
+    z-index: 3;
+    border-radius:3px;
+}
+.avatar-3uk_u9 .wrapper-3t9DeA[aria-label*="Offline"]:before {
+    position: absolute;
+    content: "";
+    top: -1px;
+    left: -1px;
+    height: 34px;
+    width: 34px;
+    box-shadow: 0px 0px 0px 2px inset var(--offline);
+    z-index: 3;
+    border-radius:3px;
+}
+div > svg > foreignObject{mask:none}
