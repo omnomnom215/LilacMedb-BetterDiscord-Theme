@@ -1351,14 +1351,11 @@
      padding:1vh 0 0 1vh;
      height:1.5rem!important;
 }
- .membersWrap-2h-GB4 .membersGroup-v9BXpm:nth-of-type(3){
-     margin-top: 2vh;
-}
  #app-mount .membersGroup-v9BXpm{
     text-align:center;
-     padding:1vh 0 0 1vh;
-     height:2rem;
-    text-transform:capitalize
+    padding:1vh 0 0 1vh;
+    height:2rem;
+    text-transform:capitalize;
 }
 
 /* calender */
