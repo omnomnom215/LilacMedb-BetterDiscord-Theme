@@ -1240,9 +1240,6 @@
  .theme-dark .topPill-30KHOu .item-PXvHYJ{
     color:var(--textcolor)
 }
- .theme-dark .topPill-30KHOu .item-PXvHYJ:hover:not(.itemSelected-1qLhcL){
-    background-color:var(--Transparency)
-}
 
 .theme-dark .price-NUANu6, .theme-light .price-NUANu6{
     color:var(--accentcolor);
@@ -1565,3 +1562,33 @@ border-color:transparent
 .scrollableContainer-2NUZem {
 margin-right: 20px;
 }
+
+/*friends list update*/
+
+
+.selected-aXhQR6 .layout-2DM8Md, .clickable-1JJAn8:hover .layout-2DM8Md{background:var(--boxcolor2);}
+
+.container-1r6BKw.themed-ANHk51 {
+    background: #0000;
+}
+
+#app-mount .container-1D34oG {background-color: var(--transparency);}
+
+.theme-dark .peopleListItem-2nzedh {
+    border-top: none;
+}
+
+.item-3HknzM.item-PXvHYJ.selected-3s45Ha.themed-OHr7kt, #app-mount .topPill-30KHOu .item-PXvHYJ:hover {    background-color: var(--boxcolor2);
+}
+
+.peopleListItem-2nzedh.active-rhSpJJ, .peopleListItem-2nzedh:hover{background: var(--boxcolor);}
+
+.icon-22AiRD{color:var(--accentcolor)}
+
+.divider-3FBTu8{background:none;}
+
+.theme-dark .inset-3sAvek,.theme-dark .outer-1AjyKL.active-1xchHY, .theme-dark .outer-1AjyKL.interactive-3B9GmY:hover{background-color: var(--Transparency);}
+
+.clickable-1JJAn8.container-2Pjhx-:active, .selected-aXhQR6.container-2Pjhx-{color:var(--textcolor);}
+
+.container-2Pjhx-{color:var(--textcolor1)}
