@@ -1481,7 +1481,7 @@ border-color:transparent
     --background-secondary: #0000;
     --background-tertiary: #0000;
     --background-accent: #0000;
-    --background-floating: #0000;
+    --background-floating: #000d;
     --background-modifier-hover: rgba(79,84,92,0.16);
     --background-modifier-active: rgba(79,84,92,0.24);
     --background-modifier-selected: rgba(79,84,92,0.32);
