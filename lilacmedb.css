@@ -1598,3 +1598,15 @@ margin-right: 20px;
 .categoryItem-1D0nxC, .navItem-12Gr9H {background:var(--boxcolor);border-radius:3px;}
 
 .inspector-sdLnLS{background:#000d;border-radius:3px;}
+
+.wrapper-2jXpOf:hover .content-1x5b-n,.modeSelected-346R90 .content-1x5b-n, .modeSelected-346R90:hover .content-1x5b-n{background-color:var(--boxcolor)}
+
+#app-mount .unread-2lAfLh {
+    background-color:#090113bf;
+    position: absolute;
+    height: 90%;
+    width: 96%;
+    border-radius: 4px;
+    top: 10%;
+    left: 4%;
+}
