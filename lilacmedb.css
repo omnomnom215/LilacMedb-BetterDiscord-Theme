@@ -51,11 +51,11 @@
     background: var(--background) center top/cover no-repeat;
     animation: none;
 }
- #app-mount .layers-3iHuyZ{
+#app-mount .bg-1QIAus{
     background:var(--bgtransparency)
 }
 /*back ground stuff*/
- .container-2lgZY8, #app-mount .content-yTz4x3, #app-mount .chat-3bRxxu, .container-2Thooq, .container-PNkimc, #app-mount .layer-3QrUeG, #app-mount .typing-2GQL18, .video-1FfuMD {
+ .container-2lgZY8, #app-mount .content-yTz4x3, #app-mount .chat-3bRxxu, .container-2Thooq, .container-PNkimc, #app-mount .layer-3QrUeG, #app-mount .typing-2GQL18, .video-1FfuMD, {
     background: rgba(0, 0, 0, 0) !important;
 }
  .theme-dark .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug{
